@@ -7,13 +7,13 @@ import Toybox.Timer;
 class TestingCadenceView extends WatchUi.View {
     const MAX_BARS = 30;
     //dummy ideal cadence values
-    const IDEAL_MIN_CADENCE = 96;
-    const IDEAL_MAX_CADENCE = 100;
+    const IDEAL_MIN_CADENCE = 88;
+    const IDEAL_MAX_CADENCE = 95;
     const MAX_CADENCE_DISPLAY = 150;
 
     private var _counter = 0;
     
-    private var _cadenceHistory = new [MAX_BARS];
+    private var _cadenceHistory as Array<Float?> = new [MAX_BARS];
     private var _cadenceDisplay;
     private var _refreshTimer;
     private var _heartrateDisplay;
@@ -56,15 +56,17 @@ class TestingCadenceView extends WatchUi.View {
     function displayActivity() as Void{
         var info = Activity.getActivityInfo();
 
+        //Setting real-time cadence display & storing values for drawing graph
         if (info != null && info.currentCadence != null){
             
+            //Display the current cadence
             _cadenceDisplay.setText(info.currentCadence.toString() + "SPM");
 
             /**
             Pushing new value to array. (Next iteration uses buffer for better control
             and less expensive operations)
             **/
-            //push cadence to history
+            //push cadence to history 
             var newCadence = info.currentCadence.toFloat();
             //add the initial 30 values to array
             if(_counter < MAX_BARS)
@@ -73,13 +75,14 @@ class TestingCadenceView extends WatchUi.View {
                 _counter++;
             }else//*in progress* (keeps pushing new values?)
             {
-                _cadenceHistory.remove(0);
+                _cadenceHistory = _cadenceHistory.slice(1, null);
                 _cadenceHistory.add(newCadence);
             }
         }else{
             _cadenceDisplay.setText("--");
         }
 
+        //Setting real-time heartrate display
         if (info != null && info.currentHeartRate != null){
             _heartrateDisplay.setText(info.currentHeartRate.toString() + "BPM");
         }else{
@@ -126,18 +129,24 @@ class TestingCadenceView extends WatchUi.View {
         var barWidth = chartWidth / barCount;
 
         //draw the bars
-        for(var i =0; i<barCount;i++)
+        for(var i = 0; i < barCount; i++)
         {
             var cadence = _cadenceHistory[i];
-            
-            if (cadence == null){cadence = 0.0;}
+
+            if (cadence == null){
+                continue;
+            }
 
             //set bar color based on ideal cadence range
             if (cadence >= IDEAL_MIN_CADENCE && cadence <= IDEAL_MAX_CADENCE) 
             {
                 dc.setColor(Graphics.COLOR_GREEN,Graphics.COLOR_BLACK);
             } 
-            else 
+            else if (cadence < IDEAL_MIN_CADENCE)
+            {
+                dc.setColor(Graphics.COLOR_YELLOW,Graphics.COLOR_BLACK);
+            }
+            else if (cadence > IDEAL_MAX_CADENCE)
             {
                 dc.setColor(Graphics.COLOR_RED,Graphics.COLOR_BLACK);
             }
@@ -147,7 +156,7 @@ class TestingCadenceView extends WatchUi.View {
             var x = chartLeft + i * barWidth;
             var y = chartBottom - barHeight;
 
-            //seperation betweene each bar
+            //seperation between each bar
             var barOffset = 1;
 
             dc.fillRectangle(x, y, barWidth-barOffset, barHeight);

@@ -1,325 +1,328 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
-    <manifest filename="D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\manifest.xml"/>
-    <pcToLineNum>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceApp.mc" id="1" lineNum="26" parent="globals" pc="268435460" symbol="getApp"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceApp.mc" id="1" lineNum="27" parent="globals" pc="268435470" symbol="getApp"/>
-        <entry filename="d:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435481" symbol="&lt;init&gt;"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceApp.mc" id="3" lineNum="5" parent="globals/TestingCadenceApp" pc="268435501" symbol="&lt;init&gt;"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceMenuDelegate.mc" id="4" lineNum="5" parent="globals/TestingCadenceMenuDelegate" pc="268435513" symbol="&lt;init&gt;"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceDelegate.mc" id="5" lineNum="4" parent="globals/TestingCadenceDelegate" pc="268435525" symbol="&lt;init&gt;"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="6" lineNum="7" parent="globals/TestingCadenceView" pc="268435537" symbol="&lt;init&gt;"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="6" lineNum="16" parent="globals/TestingCadenceView" pc="268435548" symbol="&lt;init&gt;"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceApp.mc" id="7" lineNum="12" parent="globals/TestingCadenceApp" pc="268435559" symbol="onStart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceApp.mc" id="8" lineNum="20" parent="globals/TestingCadenceApp" pc="268435562" symbol="getInitialView"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceApp.mc" id="8" lineNum="21" parent="globals/TestingCadenceApp" pc="268435564" symbol="getInitialView"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceApp.mc" id="9" lineNum="7" parent="globals/TestingCadenceApp" pc="268435611" symbol="initialize"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceApp.mc" id="9" lineNum="8" parent="globals/TestingCadenceApp" pc="268435613" symbol="initialize"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceApp.mc" id="10" lineNum="16" parent="globals/TestingCadenceApp" pc="268435626" symbol="onStop"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceMenuDelegate.mc" id="11" lineNum="11" parent="globals/TestingCadenceMenuDelegate" pc="268435629" symbol="onMenuItem"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceMenuDelegate.mc" id="11" lineNum="12" parent="globals/TestingCadenceMenuDelegate" pc="268435631" symbol="onMenuItem"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceMenuDelegate.mc" id="11" lineNum="13" parent="globals/TestingCadenceMenuDelegate" pc="268435642" symbol="onMenuItem"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceMenuDelegate.mc" id="11" lineNum="14" parent="globals/TestingCadenceMenuDelegate" pc="268435663" symbol="onMenuItem"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceMenuDelegate.mc" id="11" lineNum="15" parent="globals/TestingCadenceMenuDelegate" pc="268435674" symbol="onMenuItem"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceMenuDelegate.mc" id="12" lineNum="7" parent="globals/TestingCadenceMenuDelegate" pc="268435696" symbol="initialize"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceMenuDelegate.mc" id="12" lineNum="8" parent="globals/TestingCadenceMenuDelegate" pc="268435698" symbol="initialize"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceDelegate.mc" id="13" lineNum="10" parent="globals/TestingCadenceDelegate" pc="268435711" symbol="onMenu"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceDelegate.mc" id="13" lineNum="11" parent="globals/TestingCadenceDelegate" pc="268435713" symbol="onMenu"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceDelegate.mc" id="13" lineNum="12" parent="globals/TestingCadenceDelegate" pc="268435778" symbol="onMenu"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceDelegate.mc" id="14" lineNum="6" parent="globals/TestingCadenceDelegate" pc="268435780" symbol="initialize"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceDelegate.mc" id="14" lineNum="7" parent="globals/TestingCadenceDelegate" pc="268435782" symbol="initialize"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="28" parent="globals/TestingCadenceView" pc="268435795" symbol="onLayout"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="29" parent="globals/TestingCadenceView" pc="268435797" symbol="onLayout"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="30" parent="globals/TestingCadenceView" pc="268435830" symbol="onLayout"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="31" parent="globals/TestingCadenceView" pc="268435850" symbol="onLayout"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="95" parent="globals/TestingCadenceView" pc="268435871" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="98" parent="globals/TestingCadenceView" pc="268435874" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="98" parent="globals/TestingCadenceView" pc="268435890" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="100" parent="globals/TestingCadenceView" pc="268435894" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="101" parent="globals/TestingCadenceView" pc="268435903" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="104" parent="globals/TestingCadenceView" pc="268435912" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="105" parent="globals/TestingCadenceView" pc="268435922" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="106" parent="globals/TestingCadenceView" pc="268435929" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="107" parent="globals/TestingCadenceView" pc="268435936" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="111" parent="globals/TestingCadenceView" pc="268435940" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="112" parent="globals/TestingCadenceView" pc="268435947" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="113" parent="globals/TestingCadenceView" pc="268435954" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="114" parent="globals/TestingCadenceView" pc="268435970" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="115" parent="globals/TestingCadenceView" pc="268435980" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="116" parent="globals/TestingCadenceView" pc="268435987" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="119" parent="globals/TestingCadenceView" pc="268435994" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="122" parent="globals/TestingCadenceView" pc="268436012" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="123" parent="globals/TestingCadenceView" pc="268436025" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="123" parent="globals/TestingCadenceView" pc="268436032" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="124" parent="globals/TestingCadenceView" pc="268436036" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="127" parent="globals/TestingCadenceView" pc="268436043" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="129" parent="globals/TestingCadenceView" pc="268436054" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="131" parent="globals/TestingCadenceView" pc="268436064" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="131" parent="globals/TestingCadenceView" pc="268436070" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="134" parent="globals/TestingCadenceView" pc="268436076" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="136" parent="globals/TestingCadenceView" pc="268436092" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="140" parent="globals/TestingCadenceView" pc="268436110" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="144" parent="globals/TestingCadenceView" pc="268436126" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="145" parent="globals/TestingCadenceView" pc="268436137" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="146" parent="globals/TestingCadenceView" pc="268436147" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="149" parent="globals/TestingCadenceView" pc="268436154" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="151" parent="globals/TestingCadenceView" pc="268436158" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="18" lineNum="21" parent="globals/TestingCadenceView" pc="268436190" symbol="initialize"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="18" lineNum="22" parent="globals/TestingCadenceView" pc="268436192" symbol="initialize"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="18" lineNum="23" parent="globals/TestingCadenceView" pc="268436204" symbol="initialize"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="18" lineNum="24" parent="globals/TestingCadenceView" pc="268436233" symbol="initialize"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="20" lineNum="50" parent="globals/TestingCadenceView" pc="268436265" symbol="refreshScreen"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="20" lineNum="51" parent="globals/TestingCadenceView" pc="268436267" symbol="refreshScreen"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="38" parent="globals/TestingCadenceView" pc="268436279" symbol="onUpdate"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="40" parent="globals/TestingCadenceView" pc="268436281" symbol="onUpdate"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="42" parent="globals/TestingCadenceView" pc="268436288" symbol="onUpdate"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="44" parent="globals/TestingCadenceView" pc="268436304" symbol="onUpdate"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="54" parent="globals/TestingCadenceView" pc="268436316" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="55" parent="globals/TestingCadenceView" pc="268436319" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="57" parent="globals/TestingCadenceView" pc="268436331" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="59" parent="globals/TestingCadenceView" pc="268436348" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="66" parent="globals/TestingCadenceView" pc="268436381" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="68" parent="globals/TestingCadenceView" pc="268436396" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="70" parent="globals/TestingCadenceView" pc="268436407" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="71" parent="globals/TestingCadenceView" pc="268436420" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="74" parent="globals/TestingCadenceView" pc="268436438" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="75" parent="globals/TestingCadenceView" pc="268436453" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="78" parent="globals/TestingCadenceView" pc="268436472" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="81" parent="globals/TestingCadenceView" pc="268436491" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="82" parent="globals/TestingCadenceView" pc="268436508" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="84" parent="globals/TestingCadenceView" pc="268436544" symbol="displayActivity"/>
-        <entry filename="d:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="23" lineNum="15" parent="globals/Rez/Layouts" pc="268436564" symbol="MainLayout"/>
-        <entry filename="d:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="23" lineNum="16" parent="globals/Rez/Layouts" pc="268436575" symbol="MainLayout"/>
-        <entry filename="d:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="23" lineNum="18" parent="globals/Rez/Layouts" pc="268436584" symbol="MainLayout"/>
-        <entry filename="d:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="23" lineNum="20" parent="globals/Rez/Layouts" pc="268436593" symbol="MainLayout"/>
-        <entry filename="d:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="23" lineNum="22" parent="globals/Rez/Layouts" pc="268436688" symbol="MainLayout"/>
-        <entry filename="d:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="23" lineNum="24" parent="globals/Rez/Layouts" pc="268436783" symbol="MainLayout"/>
-        <entry filename="d:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="23" lineNum="25" parent="globals/Rez/Layouts" pc="268436876" symbol="MainLayout"/>
-        <entry filename="d:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="23" lineNum="27" parent="globals/Rez/Layouts" pc="268436902" symbol="MainLayout"/>
-        <entry filename="d:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="23" lineNum="28" parent="globals/Rez/Layouts" pc="268436995" symbol="MainLayout"/>
-        <entry filename="d:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="23" lineNum="30" parent="globals/Rez/Layouts" pc="268437021" symbol="MainLayout"/>
-        <entry filename="d:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="24" lineNum="35" parent="globals/Rez/Menus/MainMenu" pc="268437046" symbol="&lt;init&gt;"/>
-        <entry filename="d:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="25" lineNum="36" parent="globals/Rez/Menus/MainMenu" pc="268437058" symbol="initialize"/>
-        <entry filename="d:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="25" lineNum="37" parent="globals/Rez/Menus/MainMenu" pc="268437060" symbol="initialize"/>
-        <entry filename="d:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="25" lineNum="38" parent="globals/Rez/Menus/MainMenu" pc="268437072" symbol="initialize"/>
-        <entry filename="d:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="25" lineNum="39" parent="globals/Rez/Menus/MainMenu" pc="268437117" symbol="initialize"/>
-    </pcToLineNum>
-    <symbolTable>
-        <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry field="true" id="23" symbol="heartrate_icon"/>
-        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-        <entry field="true" id="14" symbol="&lt;globals/TestingCadenceView/&lt;&gt;_cadenceHistory&gt;"/>
-        <entry id="5" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="24" method="true" symbol="MainLayout"/>
-        <entry field="true" id="17" symbol="&lt;globals/TestingCadenceView/&lt;&gt;_refreshTimer&gt;"/>
-        <entry field="true" id="16" symbol="&lt;globals/TestingCadenceView/&lt;&gt;_heartrateDisplay&gt;"/>
-        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="26" symbol="AppName"/>
-        <entry field="true" id="22" symbol="cadence_icon"/>
-        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
-        <entry id="8389080" method="true" symbol="onMenu"/>
-        <entry id="8389345" symbol="rezId"/>
-        <entry id="8388631" module="true" symbol="Activity"/>
-        <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="29" symbol="prompt"/>
-        <entry id="8389124" method="true" symbol="onUpdate"/>
-        <entry field="true" id="8389065" symbol="locY"/>
-        <entry field="true" id="8389064" symbol="locX"/>
-        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-        <entry id="8389348" symbol="font"/>
-        <entry id="31" symbol="item_2"/>
-        <entry id="30" symbol="item_1"/>
-        <entry id="12" module="true" symbol="Menus"/>
-        <entry id="8389275" method="true" symbol="getApp"/>
-        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
-        <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry field="true" id="8389063" symbol="identifier"/>
-        <entry id="8389349" symbol="justification"/>
-        <entry id="18" method="true" symbol="displayActivity"/>
-        <entry id="19" method="true" symbol="drawCadenceChart"/>
-        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="25" object="true" symbol="MainMenu"/>
-        <entry id="8388644" module="true" symbol="System"/>
-        <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry id="8388640" module="true" symbol="Lang"/>
-        <entry field="true" id="21" symbol="LauncherIcon"/>
-        <entry id="8388610" symbol="statics"/>
-        <entry id="8389123" method="true" symbol="onShow"/>
-        <entry id="9" object="true" symbol="TestingCadenceMenuDelegate"/>
-        <entry id="8389350" module="true" symbol="globals"/>
-        <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry id="8388702" method="true" symbol="initialize"/>
-        <entry id="8" object="true" symbol="TestingCadenceDelegate"/>
-        <entry field="true" id="13" symbol="&lt;globals/TestingCadenceView/&lt;&gt;_cadenceDisplay&gt;"/>
-        <entry id="8389279" method="true" symbol="onStart"/>
-        <entry id="8389280" method="true" symbol="getInitialView"/>
-        <entry id="8389281" method="true" symbol="onStop"/>
-        <entry id="8389109" method="true" symbol="onMenuItem"/>
-        <entry field="true" id="8389347" symbol="color"/>
-        <entry id="8388646" module="true" object="true" symbol="Timer"/>
-        <entry id="11" module="true" symbol="Layouts"/>
-        <entry id="10" object="true" symbol="TestingCadenceView"/>
-        <entry id="20" method="true" symbol="refreshScreen"/>
-        <entry field="true" id="15" symbol="&lt;globals/TestingCadenceView/&lt;&gt;_counter&gt;"/>
-        <entry id="7" object="true" symbol="TestingCadenceApp"/>
-        <entry id="8389125" method="true" symbol="onHide"/>
-        <entry id="8388635" module="true" symbol="Application"/>
-        <entry field="true" id="28" symbol="menu_label_2"/>
-        <entry field="true" id="27" symbol="menu_label_1"/>
-    </symbolTable>
-    <localVars>
-        <entry arg="true" endPc="268435695" name="item" stackId="1" startPc="268435629"/>
-        <entry arg="true" endPc="268435870" name="dc" stackId="1" startPc="268435795"/>
-        <entry arg="true" endPc="268436189" name="dc" stackId="1" startPc="268435871"/>
-        <entry endPc="268436188" name="width" stackId="2" startPc="268435874"/>
-        <entry endPc="268436188" name="height" stackId="3" startPc="268435874"/>
-        <entry endPc="268436188" name="margin" stackId="4" startPc="268435874"/>
-        <entry endPc="268436188" name="marginLeftRightMultiplier" stackId="5" startPc="268435874"/>
-        <entry endPc="268436188" name="marginTopMultiplier" stackId="6" startPc="268435874"/>
-        <entry endPc="268436188" name="marginBottomMultiplier" stackId="7" startPc="268435874"/>
-        <entry endPc="268436188" name="chartLeft" stackId="8" startPc="268435874"/>
-        <entry endPc="268436188" name="chartRight" stackId="9" startPc="268435874"/>
-        <entry endPc="268436188" name="chartTop" stackId="10" startPc="268435874"/>
-        <entry endPc="268436188" name="chartBottom" stackId="11" startPc="268435874"/>
-        <entry endPc="268436188" name="chartWidth" stackId="12" startPc="268435874"/>
-        <entry endPc="268436188" name="chartHeight" stackId="13" startPc="268435874"/>
-        <entry endPc="268436188" name="barCount" stackId="14" startPc="268435874"/>
-        <entry endPc="268436188" name="barWidth" stackId="15" startPc="268435874"/>
-        <entry endPc="268436188" name="i" stackId="16" startPc="268436054"/>
-        <entry endPc="268436178" name="cadence" stackId="17" startPc="268436054"/>
-        <entry endPc="268436178" name="barHeight" stackId="18" startPc="268436054"/>
-        <entry endPc="268436178" name="x" stackId="19" startPc="268436054"/>
-        <entry endPc="268436178" name="y" stackId="20" startPc="268436054"/>
-        <entry endPc="268436178" name="barOffset" stackId="21" startPc="268436054"/>
-        <entry arg="true" endPc="268436315" name="dc" stackId="1" startPc="268436279"/>
-        <entry endPc="268436562" name="info" stackId="1" startPc="268436319"/>
-        <entry endPc="268436468" name="newCadence" stackId="2" startPc="268436348"/>
-        <entry arg="true" endPc="268437045" name="dc" stackId="1" startPc="268436564"/>
-        <entry endPc="268437045" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268436575"/>
-        <entry endPc="268437045" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268436575"/>
-        <entry endPc="268437045" name="rez_cmp_local_text_cadence_text" stackId="4" startPc="268436575"/>
-        <entry endPc="268437045" name="rez_cmp_local_text_heartrate_text" stackId="5" startPc="268436575"/>
-        <entry endPc="268437045" name="rez_cmp_local_bitmap_cadence_icon" stackId="6" startPc="268436575"/>
-        <entry endPc="268437045" name="rez_cmp_local_bitmap_heartrate_icon" stackId="7" startPc="268436575"/>
-    </localVars>
-    <deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B4432-00"/>
-    <annotations>
-        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
-        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="cadence_icon"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
-        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="heartrate_icon"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
-    </annotations>
-    <dataEntryOffsetMappings>
-        <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/Rez" offset="152" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/TestingCadenceApp" offset="214" parentId="globals" symbolId="TestingCadenceApp" type="class"/>
-        <dataEntry label="globals/TestingCadenceMenuDelegate" offset="285" parentId="globals" symbolId="TestingCadenceMenuDelegate" type="class"/>
-        <dataEntry label="globals/TestingCadenceDelegate" offset="338" parentId="globals" symbolId="TestingCadenceDelegate" type="class"/>
-        <dataEntry label="globals/TestingCadenceView" offset="391" parentId="globals" symbolId="TestingCadenceView" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="543" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="596" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="631" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="666" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/Menus/MainMenu" offset="728" parentId="Menus" symbolId="MainMenu" type="class"/>
-    </dataEntryOffsetMappings>
-    <functions>
-        <functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435500" name="&lt;init&gt;" parent="Rez" startPc="268435481">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435512" name="&lt;init&gt;" parent="TestingCadenceApp" startPc="268435501">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="TestingCadenceMenuDelegate" startPc="268435513">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="TestingCadenceDelegate" startPc="268435525">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435558" name="&lt;init&gt;" parent="TestingCadenceView" startPc="268435537">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435561" name="onStart" parent="TestingCadenceApp" startPc="268435559">
-            <param id="state"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435610" name="getInitialView" parent="TestingCadenceApp" startPc="268435562">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435625" name="initialize" parent="TestingCadenceApp" startPc="268435611">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435628" name="onStop" parent="TestingCadenceApp" startPc="268435626">
-            <param id="state"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435695" name="onMenuItem" parent="TestingCadenceMenuDelegate" startPc="268435629">
-            <param id="item"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435710" name="initialize" parent="TestingCadenceMenuDelegate" startPc="268435696">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435779" name="onMenu" parent="TestingCadenceDelegate" startPc="268435711">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435794" name="initialize" parent="TestingCadenceDelegate" startPc="268435780">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onShow" parent="TestingCadenceView">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435870" name="onLayout" parent="TestingCadenceView" startPc="268435795">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436189" name="drawCadenceChart" parent="TestingCadenceView" startPc="268435871">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436264" name="initialize" parent="TestingCadenceView" startPc="268436190">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="onHide" parent="TestingCadenceView">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436278" name="refreshScreen" parent="TestingCadenceView" startPc="268436265">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436315" name="onUpdate" parent="TestingCadenceView" startPc="268436279">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436563" name="displayActivity" parent="TestingCadenceView" startPc="268436316">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268437045" name="MainLayout" parent="Layouts" startPc="268436564">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268437057" name="&lt;init&gt;" parent="MainMenu" startPc="268437046">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268437162" name="initialize" parent="MainMenu" startPc="268437058">
-            <documentation/>
-        </functionEntry>
-    </functions>
+<manifest filename="C:\Users\Jack\Desktop\GarminTesting\TestingCadence\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceApp.mc" id="1" lineNum="26" parent="globals" pc="268435460" symbol="getApp"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceApp.mc" id="1" lineNum="27" parent="globals" pc="268435470" symbol="getApp"/>
+<entry filename="c:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435481" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceApp.mc" id="3" lineNum="5" parent="globals/TestingCadenceApp" pc="268435501" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceMenuDelegate.mc" id="4" lineNum="5" parent="globals/TestingCadenceMenuDelegate" pc="268435513" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceDelegate.mc" id="5" lineNum="4" parent="globals/TestingCadenceDelegate" pc="268435525" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="6" lineNum="7" parent="globals/TestingCadenceView" pc="268435537" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="6" lineNum="16" parent="globals/TestingCadenceView" pc="268435548" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceApp.mc" id="7" lineNum="12" parent="globals/TestingCadenceApp" pc="268435559" symbol="onStart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceApp.mc" id="8" lineNum="20" parent="globals/TestingCadenceApp" pc="268435562" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceApp.mc" id="8" lineNum="21" parent="globals/TestingCadenceApp" pc="268435564" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceApp.mc" id="9" lineNum="7" parent="globals/TestingCadenceApp" pc="268435611" symbol="initialize"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceApp.mc" id="9" lineNum="8" parent="globals/TestingCadenceApp" pc="268435613" symbol="initialize"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceApp.mc" id="10" lineNum="16" parent="globals/TestingCadenceApp" pc="268435626" symbol="onStop"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceMenuDelegate.mc" id="11" lineNum="11" parent="globals/TestingCadenceMenuDelegate" pc="268435629" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceMenuDelegate.mc" id="11" lineNum="12" parent="globals/TestingCadenceMenuDelegate" pc="268435631" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceMenuDelegate.mc" id="11" lineNum="13" parent="globals/TestingCadenceMenuDelegate" pc="268435642" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceMenuDelegate.mc" id="11" lineNum="14" parent="globals/TestingCadenceMenuDelegate" pc="268435663" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceMenuDelegate.mc" id="11" lineNum="15" parent="globals/TestingCadenceMenuDelegate" pc="268435674" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceMenuDelegate.mc" id="12" lineNum="7" parent="globals/TestingCadenceMenuDelegate" pc="268435696" symbol="initialize"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceMenuDelegate.mc" id="12" lineNum="8" parent="globals/TestingCadenceMenuDelegate" pc="268435698" symbol="initialize"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceDelegate.mc" id="13" lineNum="10" parent="globals/TestingCadenceDelegate" pc="268435711" symbol="onMenu"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceDelegate.mc" id="13" lineNum="11" parent="globals/TestingCadenceDelegate" pc="268435713" symbol="onMenu"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceDelegate.mc" id="13" lineNum="12" parent="globals/TestingCadenceDelegate" pc="268435778" symbol="onMenu"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceDelegate.mc" id="14" lineNum="6" parent="globals/TestingCadenceDelegate" pc="268435780" symbol="initialize"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceDelegate.mc" id="14" lineNum="7" parent="globals/TestingCadenceDelegate" pc="268435782" symbol="initialize"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="30" parent="globals/TestingCadenceView" pc="268435795" symbol="onLayout"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="31" parent="globals/TestingCadenceView" pc="268435797" symbol="onLayout"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="32" parent="globals/TestingCadenceView" pc="268435830" symbol="onLayout"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="33" parent="globals/TestingCadenceView" pc="268435850" symbol="onLayout"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="100" parent="globals/TestingCadenceView" pc="268435871" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="103" parent="globals/TestingCadenceView" pc="268435874" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="103" parent="globals/TestingCadenceView" pc="268435890" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="105" parent="globals/TestingCadenceView" pc="268435894" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="106" parent="globals/TestingCadenceView" pc="268435903" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="109" parent="globals/TestingCadenceView" pc="268435912" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="110" parent="globals/TestingCadenceView" pc="268435922" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="111" parent="globals/TestingCadenceView" pc="268435929" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="112" parent="globals/TestingCadenceView" pc="268435936" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="116" parent="globals/TestingCadenceView" pc="268435940" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="117" parent="globals/TestingCadenceView" pc="268435947" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="118" parent="globals/TestingCadenceView" pc="268435954" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="119" parent="globals/TestingCadenceView" pc="268435970" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="120" parent="globals/TestingCadenceView" pc="268435980" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="121" parent="globals/TestingCadenceView" pc="268435987" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="124" parent="globals/TestingCadenceView" pc="268435994" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="127" parent="globals/TestingCadenceView" pc="268436012" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="128" parent="globals/TestingCadenceView" pc="268436025" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="128" parent="globals/TestingCadenceView" pc="268436032" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="129" parent="globals/TestingCadenceView" pc="268436036" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="132" parent="globals/TestingCadenceView" pc="268436043" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="134" parent="globals/TestingCadenceView" pc="268436054" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="136" parent="globals/TestingCadenceView" pc="268436064" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="137" parent="globals/TestingCadenceView" pc="268436070" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="141" parent="globals/TestingCadenceView" pc="268436076" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="143" parent="globals/TestingCadenceView" pc="268436092" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="145" parent="globals/TestingCadenceView" pc="268436110" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="147" parent="globals/TestingCadenceView" pc="268436118" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="149" parent="globals/TestingCadenceView" pc="268436137" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="151" parent="globals/TestingCadenceView" pc="268436145" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="155" parent="globals/TestingCadenceView" pc="268436164" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="156" parent="globals/TestingCadenceView" pc="268436175" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="157" parent="globals/TestingCadenceView" pc="268436185" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="160" parent="globals/TestingCadenceView" pc="268436192" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="162" parent="globals/TestingCadenceView" pc="268436196" symbol="drawCadenceChart"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="18" lineNum="23" parent="globals/TestingCadenceView" pc="268436228" symbol="initialize"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="18" lineNum="24" parent="globals/TestingCadenceView" pc="268436230" symbol="initialize"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="18" lineNum="25" parent="globals/TestingCadenceView" pc="268436242" symbol="initialize"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="18" lineNum="26" parent="globals/TestingCadenceView" pc="268436271" symbol="initialize"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="20" lineNum="52" parent="globals/TestingCadenceView" pc="268436303" symbol="refreshScreen"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="20" lineNum="53" parent="globals/TestingCadenceView" pc="268436305" symbol="refreshScreen"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="40" parent="globals/TestingCadenceView" pc="268436317" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="42" parent="globals/TestingCadenceView" pc="268436319" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="44" parent="globals/TestingCadenceView" pc="268436326" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="46" parent="globals/TestingCadenceView" pc="268436342" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="56" parent="globals/TestingCadenceView" pc="268436354" symbol="displayActivity"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="57" parent="globals/TestingCadenceView" pc="268436357" symbol="displayActivity"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="60" parent="globals/TestingCadenceView" pc="268436369" symbol="displayActivity"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="63" parent="globals/TestingCadenceView" pc="268436386" symbol="displayActivity"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="70" parent="globals/TestingCadenceView" pc="268436419" symbol="displayActivity"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="72" parent="globals/TestingCadenceView" pc="268436434" symbol="displayActivity"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="74" parent="globals/TestingCadenceView" pc="268436445" symbol="displayActivity"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="75" parent="globals/TestingCadenceView" pc="268436458" symbol="displayActivity"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="78" parent="globals/TestingCadenceView" pc="268436476" symbol="displayActivity"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="79" parent="globals/TestingCadenceView" pc="268436499" symbol="displayActivity"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="82" parent="globals/TestingCadenceView" pc="268436518" symbol="displayActivity"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="86" parent="globals/TestingCadenceView" pc="268436537" symbol="displayActivity"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="87" parent="globals/TestingCadenceView" pc="268436554" symbol="displayActivity"/>
+<entry filename="C:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="89" parent="globals/TestingCadenceView" pc="268436590" symbol="displayActivity"/>
+<entry filename="c:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="23" lineNum="15" parent="globals/Rez/Layouts" pc="268436610" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="23" lineNum="16" parent="globals/Rez/Layouts" pc="268436621" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="23" lineNum="18" parent="globals/Rez/Layouts" pc="268436630" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="23" lineNum="20" parent="globals/Rez/Layouts" pc="268436639" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="23" lineNum="22" parent="globals/Rez/Layouts" pc="268436734" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="23" lineNum="24" parent="globals/Rez/Layouts" pc="268436829" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="23" lineNum="25" parent="globals/Rez/Layouts" pc="268436922" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="23" lineNum="27" parent="globals/Rez/Layouts" pc="268436948" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="23" lineNum="28" parent="globals/Rez/Layouts" pc="268437041" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="23" lineNum="30" parent="globals/Rez/Layouts" pc="268437067" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="24" lineNum="35" parent="globals/Rez/Menus/MainMenu" pc="268437092" symbol="&lt;init&gt;"/>
+<entry filename="c:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="25" lineNum="36" parent="globals/Rez/Menus/MainMenu" pc="268437104" symbol="initialize"/>
+<entry filename="c:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="25" lineNum="37" parent="globals/Rez/Menus/MainMenu" pc="268437106" symbol="initialize"/>
+<entry filename="c:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="25" lineNum="38" parent="globals/Rez/Menus/MainMenu" pc="268437118" symbol="initialize"/>
+<entry filename="c:\\Users\\Jack\\Desktop\\GarminTesting\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="25" lineNum="39" parent="globals/Rez/Menus/MainMenu" pc="268437163" symbol="initialize"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="23" symbol="heartrate_icon"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry field="true" id="14" symbol="&lt;globals/TestingCadenceView/&lt;&gt;_cadenceHistory&gt;"/>
+<entry id="5" module="true" symbol="globals/Rez/Menus"/>
+<entry id="24" method="true" symbol="MainLayout"/>
+<entry field="true" id="17" symbol="&lt;globals/TestingCadenceView/&lt;&gt;_refreshTimer&gt;"/>
+<entry field="true" id="16" symbol="&lt;globals/TestingCadenceView/&lt;&gt;_heartrateDisplay&gt;"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="26" symbol="AppName"/>
+<entry field="true" id="22" symbol="cadence_icon"/>
+<entry id="6" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8389080" method="true" symbol="onMenu"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8388631" module="true" symbol="Activity"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry field="true" id="29" symbol="prompt"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389348" symbol="font"/>
+<entry id="31" symbol="item_2"/>
+<entry id="30" symbol="item_1"/>
+<entry id="12" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="18" method="true" symbol="displayActivity"/>
+<entry id="19" method="true" symbol="drawCadenceChart"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="25" object="true" symbol="MainMenu"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="21" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="9" object="true" symbol="TestingCadenceMenuDelegate"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8" object="true" symbol="TestingCadenceDelegate"/>
+<entry field="true" id="13" symbol="&lt;globals/TestingCadenceView/&lt;&gt;_cadenceDisplay&gt;"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389109" method="true" symbol="onMenuItem"/>
+<entry field="true" id="8389347" symbol="color"/>
+<entry id="8388646" module="true" object="true" symbol="Timer"/>
+<entry id="11" module="true" symbol="Layouts"/>
+<entry id="10" object="true" symbol="TestingCadenceView"/>
+<entry id="20" method="true" symbol="refreshScreen"/>
+<entry field="true" id="15" symbol="&lt;globals/TestingCadenceView/&lt;&gt;_counter&gt;"/>
+<entry id="7" object="true" symbol="TestingCadenceApp"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="28" symbol="menu_label_2"/>
+<entry field="true" id="27" symbol="menu_label_1"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435695" name="item" stackId="1" startPc="268435629"/>
+<entry arg="true" endPc="268435870" name="dc" stackId="1" startPc="268435795"/>
+<entry arg="true" endPc="268436227" name="dc" stackId="1" startPc="268435871"/>
+<entry endPc="268436226" name="width" stackId="2" startPc="268435874"/>
+<entry endPc="268436226" name="height" stackId="3" startPc="268435874"/>
+<entry endPc="268436226" name="margin" stackId="4" startPc="268435874"/>
+<entry endPc="268436226" name="marginLeftRightMultiplier" stackId="5" startPc="268435874"/>
+<entry endPc="268436226" name="marginTopMultiplier" stackId="6" startPc="268435874"/>
+<entry endPc="268436226" name="marginBottomMultiplier" stackId="7" startPc="268435874"/>
+<entry endPc="268436226" name="chartLeft" stackId="8" startPc="268435874"/>
+<entry endPc="268436226" name="chartRight" stackId="9" startPc="268435874"/>
+<entry endPc="268436226" name="chartTop" stackId="10" startPc="268435874"/>
+<entry endPc="268436226" name="chartBottom" stackId="11" startPc="268435874"/>
+<entry endPc="268436226" name="chartWidth" stackId="12" startPc="268435874"/>
+<entry endPc="268436226" name="chartHeight" stackId="13" startPc="268435874"/>
+<entry endPc="268436226" name="barCount" stackId="14" startPc="268435874"/>
+<entry endPc="268436226" name="barWidth" stackId="15" startPc="268435874"/>
+<entry endPc="268436226" name="i" stackId="16" startPc="268436054"/>
+<entry endPc="268436216" name="cadence" stackId="17" startPc="268436054"/>
+<entry endPc="268436216" name="barHeight" stackId="18" startPc="268436054"/>
+<entry endPc="268436216" name="x" stackId="19" startPc="268436054"/>
+<entry endPc="268436216" name="y" stackId="20" startPc="268436054"/>
+<entry endPc="268436216" name="barOffset" stackId="21" startPc="268436054"/>
+<entry arg="true" endPc="268436353" name="dc" stackId="1" startPc="268436317"/>
+<entry endPc="268436608" name="info" stackId="1" startPc="268436357"/>
+<entry endPc="268436514" name="newCadence" stackId="2" startPc="268436386"/>
+<entry arg="true" endPc="268437091" name="dc" stackId="1" startPc="268436610"/>
+<entry endPc="268437091" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268436621"/>
+<entry endPc="268437091" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268436621"/>
+<entry endPc="268437091" name="rez_cmp_local_text_cadence_text" stackId="4" startPc="268436621"/>
+<entry endPc="268437091" name="rez_cmp_local_text_heartrate_text" stackId="5" startPc="268436621"/>
+<entry endPc="268437091" name="rez_cmp_local_bitmap_cadence_icon" stackId="6" startPc="268436621"/>
+<entry endPc="268437091" name="rez_cmp_local_bitmap_heartrate_icon" stackId="7" startPc="268436621"/>
+</localVars>
+<deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B4432-00"/>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="cadence_icon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="heartrate_icon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/Rez" offset="152" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/TestingCadenceApp" offset="214" parentId="globals" symbolId="TestingCadenceApp" type="class"/>
+<dataEntry label="globals/TestingCadenceMenuDelegate" offset="285" parentId="globals" symbolId="TestingCadenceMenuDelegate" type="class"/>
+<dataEntry label="globals/TestingCadenceDelegate" offset="338" parentId="globals" symbolId="TestingCadenceDelegate" type="class"/>
+<dataEntry label="globals/TestingCadenceView" offset="391" parentId="globals" symbolId="TestingCadenceView" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="543" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="596" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="631" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="666" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/Menus/MainMenu" offset="728" parentId="Menus" symbolId="MainMenu" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435500" name="&lt;init&gt;" parent="Rez" startPc="268435481">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435512" name="&lt;init&gt;" parent="TestingCadenceApp" startPc="268435501">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="TestingCadenceMenuDelegate" startPc="268435513">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="TestingCadenceDelegate" startPc="268435525">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435558" name="&lt;init&gt;" parent="TestingCadenceView" startPc="268435537">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435561" name="onStart" parent="TestingCadenceApp" startPc="268435559">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435610" name="getInitialView" parent="TestingCadenceApp" startPc="268435562">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435625" name="initialize" parent="TestingCadenceApp" startPc="268435611">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435628" name="onStop" parent="TestingCadenceApp" startPc="268435626">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435695" name="onMenuItem" parent="TestingCadenceMenuDelegate" startPc="268435629">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435710" name="initialize" parent="TestingCadenceMenuDelegate" startPc="268435696">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435779" name="onMenu" parent="TestingCadenceDelegate" startPc="268435711">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435794" name="initialize" parent="TestingCadenceDelegate" startPc="268435780">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="TestingCadenceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435870" name="onLayout" parent="TestingCadenceView" startPc="268435795">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436227" name="drawCadenceChart" parent="TestingCadenceView" startPc="268435871">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436302" name="initialize" parent="TestingCadenceView" startPc="268436228">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="TestingCadenceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436316" name="refreshScreen" parent="TestingCadenceView" startPc="268436303">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436353" name="onUpdate" parent="TestingCadenceView" startPc="268436317">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436609" name="displayActivity" parent="TestingCadenceView" startPc="268436354">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437091" name="MainLayout" parent="Layouts" startPc="268436610">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437103" name="&lt;init&gt;" parent="MainMenu" startPc="268437092">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437208" name="initialize" parent="MainMenu" startPc="268437104">
+<documentation/>
+</functionEntry>
+</functions>
 </debugInfo>
