@@ -11,7 +11,8 @@ class TestingCadenceView extends WatchUi.View {
     const IDEAL_MAX_CADENCE = 95;
     const MAX_CADENCE_DISPLAY = 150;
 
-    private var _counter = 0;
+    private var _writeIndex = 0;
+    private var _valueCount = 0;
     
     private var _cadenceHistory as Array<Float?> = new [MAX_BARS];
     private var _cadenceDisplay;
@@ -34,16 +35,21 @@ class TestingCadenceView extends WatchUi.View {
     }
 
     function onShow() as Void {
+        
     }
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
         //update the display for current cadence
         displayActivity();
+        
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         //display chart
         drawCadenceChart(dc);
+
+        
+        
     }
 
     function onHide() as Void {
@@ -58,26 +64,25 @@ class TestingCadenceView extends WatchUi.View {
 
         //Setting real-time cadence display & storing values for drawing graph
         if (info != null && info.currentCadence != null){
-            
-            //Display the current cadence
-            _cadenceDisplay.setText(info.currentCadence.toString() + "SPM");
 
             /**
-            Pushing new value to array. (Next iteration uses buffer for better control
-            and less expensive operations)
+            Update cadecen using a ring buffer
             **/
+
             //push cadence to history 
             var newCadence = info.currentCadence.toFloat();
-            //add the initial 30 values to array
-            if(_counter < MAX_BARS)
+            _cadenceDisplay.setText(info.currentCadence.toString() + "SPM");
+            
+            _cadenceHistory[_writeIndex] = newCadence;
+
+            //ring buffer
+            _writeIndex = (_writeIndex + 1) % MAX_BARS;
+
+            if(_valueCount < MAX_BARS)
             {
-                _cadenceHistory[_counter] = newCadence;
-                _counter++;
-            }else//*in progress* (keeps pushing new values?)
-            {
-                _cadenceHistory = _cadenceHistory.slice(1, null);
-                _cadenceHistory.add(newCadence);
+                _valueCount ++;
             }
+
         }else{
             _cadenceDisplay.setText("--");
         }
@@ -99,8 +104,7 @@ class TestingCadenceView extends WatchUi.View {
     **/
     function drawCadenceChart(dc as Dc) as Void
     {
-        //check cadence history
-        if(_cadenceHistory.size() == 0) {return;}
+        //Always display chart
 
         var width = dc.getWidth();
         var height = dc.getHeight();
@@ -112,7 +116,6 @@ class TestingCadenceView extends WatchUi.View {
         var marginBottomMultiplier = 2;
 
         //chart position
-        
         var chartLeft = margin*marginLeftRightMultiplier;
         var chartRight = width - chartLeft;
         var chartTop = height * 0.5 + margin * marginTopMultiplier;
@@ -123,33 +126,38 @@ class TestingCadenceView extends WatchUi.View {
         //background
         dc.drawRectangle(chartLeft, chartTop, chartWidth, chartHeight);
 
-        //bar scaling
-        var barCount = _cadenceHistory.size();
-        if(barCount <= 0) {return;}
-        var barWidth = chartWidth / barCount;
+        //check cadence history
+        if(_valueCount == 0) {return;}
 
-        //draw the bars
+        //bar scaling
+        var barCount = _valueCount;
+        if(barCount == 0) {return;}
+        var barWidth = chartWidth / MAX_BARS;
+        
+        //get the index of the oldest value
+        var startIndex = (_writeIndex - barCount + MAX_BARS) % MAX_BARS;
+        //draw each bar
         for(var i = 0; i < barCount; i++)
         {
-            var cadence = _cadenceHistory[i];
-
-            if (cadence == null){
-                continue;
+            var index = (startIndex + i) % MAX_BARS;
+            var cadence = _cadenceHistory[index];
+            if(cadence == null)
+            {
+                cadence = 0.0;
             }
 
-            //set bar color based on ideal cadence range
-            if (cadence >= IDEAL_MIN_CADENCE && cadence <= IDEAL_MAX_CADENCE) 
-            {
-                dc.setColor(Graphics.COLOR_GREEN,Graphics.COLOR_BLACK);
-            } 
-            else if (cadence < IDEAL_MIN_CADENCE)
-            {
+           if(cadence < IDEAL_MIN_CADENCE)
+           {
                 dc.setColor(Graphics.COLOR_YELLOW,Graphics.COLOR_BLACK);
-            }
-            else if (cadence > IDEAL_MAX_CADENCE)
-            {
+           } 
+           else if (cadence > IDEAL_MAX_CADENCE)
+           {
                 dc.setColor(Graphics.COLOR_RED,Graphics.COLOR_BLACK);
-            }
+           }
+           else
+           {
+                dc.setColor(Graphics.COLOR_GREEN,Graphics.COLOR_BLACK);
+           }
 
             //calculate bar height and position
             var barHeight = (cadence / MAX_CADENCE_DISPLAY) * chartHeight;
@@ -161,7 +169,7 @@ class TestingCadenceView extends WatchUi.View {
 
             dc.fillRectangle(x, y, barWidth-barOffset, barHeight);
         }
-
+        
         
     }
 
