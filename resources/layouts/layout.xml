@@ -1,5 +1,20 @@
 <layout id="MainLayout" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
-    <label id="cadence_text" 
+    <bitmap id="cadence_icon" 
+        x="30%"
+        y="10%"
+        filename="../drawables/cadence_icon.png" />
+    <bitmap id="heartrate_icon" 
+        x="30%"
+        y="20%"
+        filename="../drawables/heartrate_icon.png" />
+    
+    <label id="testing" 
+        x="50%" 
+        y="40%" 
+        font="Gfx.FONT_SMALL" 
+        justification="Gfx.TEXT_JUSTIFY_CENTER" 
+        color="Gfx.COLOR_WHITE" />
+    <label id="current_cadence_text" 
         x="60%" 
         y="10%" 
         font="Gfx.FONT_SMALL" 
@@ -11,12 +26,11 @@
         font="Gfx.FONT_SMALL" 
         justification="Gfx.TEXT_JUSTIFY_CENTER" 
         color="Gfx.COLOR_WHITE" />
-    <bitmap id="cadence_icon" 
-        x="30%"
-        y="10%"
-        filename="../drawables/cadence_icon.png" />
-    <bitmap id="heartrate_icon" 
-        x="30%"
-        y="20%"
-        filename="../drawables/heartrate_icon.png" />
+    <label id="ideal_cadence_text"
+        x="50%"
+        y="85%"
+        font="Gfx.FONT_SMALL"
+        justification="Gfx.TEXT_JUSTIFY_CENTER"
+        color="Gfx.COLOR_WHITE"/>
+    
 </layout>

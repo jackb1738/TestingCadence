@@ -17,17 +17,21 @@ module Rez {
 
             var rez_cmp_local_var_dc_getWidth = dc.getWidth();
 
-            var rez_cmp_local_text_cadence_text = new WatchUi.Text({:identifier=>"cadence_text", :color=>Gfx.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * (60 / 100.0)), :locY=>(rez_cmp_local_var_dc_getHeight * (10 / 100.0)), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
-
-            var rez_cmp_local_text_heartrate_text = new WatchUi.Text({:identifier=>"heartrate_text", :color=>Gfx.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * (60 / 100.0)), :locY=>(rez_cmp_local_var_dc_getHeight * (20 / 100.0)), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
-
             var rez_cmp_local_bitmap_cadence_icon = new WatchUi.Bitmap({:identifier=>"cadence_icon", :rezId=>$.Rez.Drawables.cadence_icon, :locX=>(rez_cmp_local_var_dc_getWidth * (30 / 100.0)), :locY=>(rez_cmp_local_var_dc_getHeight * (10 / 100.0))});
             rez_cmp_local_bitmap_cadence_icon.setLocation((rez_cmp_local_var_dc_getWidth * (30 / 100.0)), (rez_cmp_local_var_dc_getHeight * (10 / 100.0)));
 
             var rez_cmp_local_bitmap_heartrate_icon = new WatchUi.Bitmap({:identifier=>"heartrate_icon", :rezId=>$.Rez.Drawables.heartrate_icon, :locX=>(rez_cmp_local_var_dc_getWidth * (30 / 100.0)), :locY=>(rez_cmp_local_var_dc_getHeight * (20 / 100.0))});
             rez_cmp_local_bitmap_heartrate_icon.setLocation((rez_cmp_local_var_dc_getWidth * (30 / 100.0)), (rez_cmp_local_var_dc_getHeight * (20 / 100.0)));
 
-            return [rez_cmp_local_text_cadence_text, rez_cmp_local_text_heartrate_text, rez_cmp_local_bitmap_cadence_icon, rez_cmp_local_bitmap_heartrate_icon] as Array<WatchUi.Drawable>;
+            var rez_cmp_local_text_testing = new WatchUi.Text({:identifier=>"testing", :color=>Gfx.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * (50 / 100.0)), :locY=>(rez_cmp_local_var_dc_getHeight * (40 / 100.0)), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
+
+            var rez_cmp_local_text_current_cadence_text = new WatchUi.Text({:identifier=>"current_cadence_text", :color=>Gfx.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * (60 / 100.0)), :locY=>(rez_cmp_local_var_dc_getHeight * (10 / 100.0)), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
+
+            var rez_cmp_local_text_heartrate_text = new WatchUi.Text({:identifier=>"heartrate_text", :color=>Gfx.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * (60 / 100.0)), :locY=>(rez_cmp_local_var_dc_getHeight * (20 / 100.0)), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
+
+            var rez_cmp_local_text_ideal_cadence_text = new WatchUi.Text({:identifier=>"ideal_cadence_text", :color=>Gfx.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * (50 / 100.0)), :locY=>(rez_cmp_local_var_dc_getHeight * (85 / 100.0)), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
+
+            return [rez_cmp_local_bitmap_cadence_icon, rez_cmp_local_bitmap_heartrate_icon, rez_cmp_local_text_testing, rez_cmp_local_text_current_cadence_text, rez_cmp_local_text_heartrate_text, rez_cmp_local_text_ideal_cadence_text] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
