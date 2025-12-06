@@ -5,6 +5,7 @@ import Toybox.Lang;
 import Toybox.Timer;
 import Toybox.Activity;
 import Toybox.Math;
+import Toybox.Sensor;
 
 
 
@@ -30,9 +31,9 @@ class TestingCadenceView extends WatchUi.View {
     private var _cadenceRangeDisplay;
 
     enum {
-        Beginner = 0.96,
+        Beginner = 0.8,
         Intermediate = 1,
-        Advanced = 1.04
+        Advanced = 1.02
     }
     //user info (testing with dummy value rn)
     private var _userHeight = 160;
@@ -189,7 +190,6 @@ class TestingCadenceView extends WatchUi.View {
     function drawCadenceChart(dc as Dc) as Void
     {
         //Always display chart
-
         var width = dc.getWidth();
         var height = dc.getHeight();
 

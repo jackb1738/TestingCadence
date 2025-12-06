@@ -12,724 +12,726 @@ import Toybox.Timer;
 import Toybox.Activity;
 [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Math,7,14,18]; ]
 import Toybox.Math;
-[ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 11; @symbol_classdef = [TestingCadenceView,11,6,24]; @symbol_extends<0> = [WatchUi,11,33,40]; @symbol_extends<1> = [View,11,41,45]; ]
+[ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 8; @symbol_importdef<0> = [Toybox,8,7,13]; @symbol_importdef<1> = [Sensor,8,14,20]; ]
+import Toybox.Sensor;
+[ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 12; @symbol_classdef = [TestingCadenceView,12,6,24]; @symbol_extends<0> = [WatchUi,12,33,40]; @symbol_extends<1> = [View,12,41,45]; ]
 class TestingCadenceView extends WatchUi.View {
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 11; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 12; ]
     <init> {
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 29 16 ]
-        symbol [ MAX_BARS %tmp.3 29 56 64 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 30 16 ]
+        symbol [ MAX_BARS %tmp.3 30 56 64 ];
         %tmp.3 = getv ? :MAX_BARS;
         %tmp.1 = newa %tmp.3;
         putv self :_cadenceHistory %tmp.1;
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 40 16 ]
-        symbol [ Beginner %tmp.5 40 31 39 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 41 16 ]
+        symbol [ Beginner %tmp.5 41 31 39 ];
         %tmp.5 = getv ? :Beginner;
         putv self :_trainingLvl %tmp.5;
     }
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 11; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 12; ]
     static
     <init> {
     }
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 12; @position = 10; @symbol_constdef = [MAX_BARS,12,10,18]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 13; @position = 10; @symbol_constdef = [MAX_BARS,13,10,18]; ]
     const MAX_BARS = 30;
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 13; @position = 10; @symbol_constdef = [MAX_CADENCE_DISPLAY,13,10,29]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 14; @position = 10; @symbol_constdef = [MAX_CADENCE_DISPLAY,14,10,29]; ]
     const MAX_CADENCE_DISPLAY = 200;
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 14; @position = 10; @symbol_constdef = [BASELINE_AVG_CADENCE,14,10,30]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 15; @position = 10; @symbol_constdef = [BASELINE_AVG_CADENCE,15,10,30]; ]
     const BASELINE_AVG_CADENCE = 150;
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 15; @position = 10; @symbol_constdef = [HEIGHT_BASELINE,15,10,25]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 16; @position = 10; @symbol_constdef = [HEIGHT_BASELINE,16,10,25]; ]
     const HEIGHT_BASELINE = 170;
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 16; @position = 10; @symbol_constdef = [STEP_RATE,16,10,19]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 17; @position = 10; @symbol_constdef = [STEP_RATE,17,10,19]; ]
     const STEP_RATE = 6;
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 19; @position = 16; @symbol_vardef = [_writeIndex,19,16,27]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 20; @position = 16; @symbol_vardef = [_writeIndex,20,16,27]; ]
     private
     var _writeIndex = 0;
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 20; @position = 16; @symbol_vardef = [_valueCount,20,16,27]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 21; @position = 16; @symbol_vardef = [_valueCount,21,16,27]; ]
     private
     var _valueCount = 0;
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 22; @position = 16; @symbol_vardef = [_idealMinCadence,22,16,32]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 23; @position = 16; @symbol_vardef = [_idealMinCadence,23,16,32]; ]
     private
     var _idealMinCadence = 80;
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 23; @position = 16; @symbol_vardef = [_idealMaxCadence,23,16,32]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 24; @position = 16; @symbol_vardef = [_idealMaxCadence,24,16,32]; ]
     private
     var _idealMaxCadence = 90;
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 26; @position = 16; @symbol_vardef = [_refreshTimer,26,16,29]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 27; @position = 16; @symbol_vardef = [_refreshTimer,27,16,29]; ]
     private
     var _refreshTimer;
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 27; @position = 16; @symbol_vardef = [_heartrateDisplay,27,16,33]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 28; @position = 16; @symbol_vardef = [_heartrateDisplay,28,16,33]; ]
     private
     var _heartrateDisplay;
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 28; @position = 16; @symbol_vardef = [_cadenceDisplay,28,16,31]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 29; @position = 16; @symbol_vardef = [_cadenceDisplay,29,16,31]; ]
     private
     var _cadenceDisplay;
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 29; @position = 16; @symbol_vardef = [_cadenceHistory,29,16,31]; @symbol_type<0> = [Array,29,35,40]; @symbol_type<1> = [Float,29,41,46]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 30; @position = 16; @symbol_vardef = [_cadenceHistory,30,16,31]; @symbol_type<0> = [Array,30,35,40]; @symbol_type<1> = [Float,30,41,46]; ]
     private
     var _cadenceHistory as Array<Float or Null>;
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 30; @position = 16; @symbol_vardef = [_cadenceRangeDisplay,30,16,36]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 31; @position = 16; @symbol_vardef = [_cadenceRangeDisplay,31,16,36]; ]
     private
     var _cadenceRangeDisplay;
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 32; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 33; ]
     static
     enum {
-        [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 33; @position = 8; @symbol_enumdec = [Beginner,33,8,16]; ]
-        Beginner = 0.96,
-        [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 34; @position = 8; @symbol_enumdec = [Intermediate,34,8,20]; ]
+        [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 34; @position = 8; @symbol_enumdec = [Beginner,34,8,16]; ]
+        Beginner = 0.8,
+        [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 35; @position = 8; @symbol_enumdec = [Intermediate,35,8,20]; ]
         Intermediate = 1,
-        [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 35; @position = 8; @symbol_enumdec = [Advanced,35,8,16]; ]
-        Advanced = 1.04
+        [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 36; @position = 8; @symbol_enumdec = [Advanced,36,8,16]; ]
+        Advanced = 1.02
     }
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 38; @position = 16; @symbol_vardef = [_userHeight,38,16,27]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 39; @position = 16; @symbol_vardef = [_userHeight,39,16,27]; ]
     private
     var _userHeight = 160;
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 39; @position = 16; @symbol_vardef = [_userSpeed,39,16,26]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 40; @position = 16; @symbol_vardef = [_userSpeed,40,16,26]; ]
     private
     var _userSpeed = 0;
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 40; @position = 16; @symbol_vardef = [_trainingLvl,40,16,28]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 41; @position = 16; @symbol_vardef = [_trainingLvl,41,16,28]; ]
     private
     var _trainingLvl;
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 42; @symbol_functiondef = [initialize,42,13,23]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 43; @symbol_functiondef = [initialize,43,13,23]; ]
     function initialize() as Void {
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_42_26_46_4_start:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 43 8 ]
-        symbol [ View %tmp.2 43 8 12 ];
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_43_26_47_4_start:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 44 8 ]
+        symbol [ View %tmp.2 44 8 12 ];
         %tmp.2 = getv ? :View;
-        symbol [ initialize %tmp.3 43 13 23 ];
+        symbol [ initialize %tmp.3 44 13 23 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 44 8 ]
-        symbol [ Timer %tmp.6 44 28 33 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 45 8 ]
+        symbol [ Timer %tmp.6 45 28 33 ];
         %tmp.6 = getm $.Toybox.Timer;
-        symbol [ Timer %tmp.7 44 34 39 ];
+        symbol [ Timer %tmp.7 45 34 39 ];
         %tmp.7 = getv function ? %tmp.6 :Timer;
         %tmp.4 = newc %tmp.7 ();
-        symbol [ _refreshTimer ? 44 8 21 ];
+        symbol [ _refreshTimer ? 45 8 21 ];
         putv self :_refreshTimer %tmp.4;
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 45 8 ]
-        symbol [ _refreshTimer %tmp.9 45 8 21 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 46 8 ]
+        symbol [ _refreshTimer %tmp.9 46 8 21 ];
         %tmp.9 = getv ? :_refreshTimer;
-        symbol [ start %tmp.10 45 22 27 ];
+        symbol [ start %tmp.10 46 22 27 ];
         %tmp.10 = getv function %tmp.9 :start;
         %tmp.11 = self;
-        symbol [ method %tmp.12 45 28 34 ];
+        symbol [ method %tmp.12 46 28 34 ];
         %tmp.12 = getv function %tmp.11 :method;
         %tmp.14 = const :refreshScreen;
-        symbol [ refreshScreen %tmp.14 45 36 49 const ];
+        symbol [ refreshScreen %tmp.14 46 36 49 const ];
         %tmp.15 = invoke %tmp.11 %tmp.12(%tmp.14);
         %tmp.16 = 1000;
         %tmp.17 = true;
         invoke %tmp.9 %tmp.10(%tmp.15, %tmp.16, %tmp.17);
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_42_26_46_4_stop:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_43_26_47_4_stop:
     }
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 49; @symbol_functiondef = [onLayout,49,13,21]; @symbol_param<0> = [dc,49,22,24]; @symbol_param<0>_type<0> = [Dc,49,28,30]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 50; @symbol_functiondef = [onLayout,50,13,21]; @symbol_param<0> = [dc,50,22,24]; @symbol_param<0>_type<0> = [Dc,50,28,30]; ]
     function onLayout(dc as Dc) as Void {
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_49_40_54_4_start:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 50 8 ]
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_50_40_55_4_start:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 51 8 ]
         %tmp.1 = self;
-        symbol [ setLayout %tmp.2 50 8 17 ];
+        symbol [ setLayout %tmp.2 51 8 17 ];
         %tmp.2 = getv function %tmp.1 :setLayout;
-        symbol [ Rez %tmp.4 50 18 21 ];
+        symbol [ Rez %tmp.4 51 18 21 ];
         %tmp.4 = getv ? :Rez;
-        symbol [ Layouts %tmp.5 50 22 29 ];
+        symbol [ Layouts %tmp.5 51 22 29 ];
         %tmp.5 = getv %tmp.4 :Layouts;
-        symbol [ MainLayout %tmp.6 50 30 40 ];
+        symbol [ MainLayout %tmp.6 51 30 40 ];
         %tmp.6 = getv function %tmp.5 :MainLayout;
         %tmp.7 = lgetv %dc;
-        symbol [ dc %tmp.7 50 41 43 ];
+        symbol [ dc %tmp.7 51 41 43 ];
         %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
         invoke %tmp.1 %tmp.2(%tmp.8);
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 51 8 ]
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 52 8 ]
         %tmp.9 = self;
-        symbol [ findDrawableById %tmp.10 51 26 42 ];
+        symbol [ findDrawableById %tmp.10 52 26 42 ];
         %tmp.10 = getv function %tmp.9 :findDrawableById;
         %tmp.11 = "current_cadence_text";
         %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
-        symbol [ _cadenceDisplay ? 51 8 23 ];
+        symbol [ _cadenceDisplay ? 52 8 23 ];
         putv self :_cadenceDisplay %tmp.12;
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 52 8 ]
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 53 8 ]
         %tmp.13 = self;
-        symbol [ findDrawableById %tmp.14 52 28 44 ];
+        symbol [ findDrawableById %tmp.14 53 28 44 ];
         %tmp.14 = getv function %tmp.13 :findDrawableById;
         %tmp.15 = "heartrate_text";
         %tmp.16 = invoke %tmp.13 %tmp.14(%tmp.15);
-        symbol [ _heartrateDisplay ? 52 8 25 ];
+        symbol [ _heartrateDisplay ? 53 8 25 ];
         putv self :_heartrateDisplay %tmp.16;
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 53 8 ]
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 54 8 ]
         %tmp.17 = self;
-        symbol [ findDrawableById %tmp.18 53 31 47 ];
+        symbol [ findDrawableById %tmp.18 54 31 47 ];
         %tmp.18 = getv function %tmp.17 :findDrawableById;
         %tmp.19 = "ideal_cadence_text";
         %tmp.20 = invoke %tmp.17 %tmp.18(%tmp.19);
-        symbol [ _cadenceRangeDisplay ? 53 8 28 ];
+        symbol [ _cadenceRangeDisplay ? 54 8 28 ];
         putv self :_cadenceRangeDisplay %tmp.20;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_49_40_54_4_stop:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_50_40_55_4_stop:
     }
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 56; @symbol_functiondef = [onShow,56,13,19]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 57; @symbol_functiondef = [onShow,57,13,19]; ]
     function onShow() as Void {
     }
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 61; @symbol_functiondef = [onUpdate,61,13,21]; @symbol_param<0> = [dc,61,22,24]; @symbol_param<0>_type<0> = [Dc,61,28,30]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 62; @symbol_functiondef = [onUpdate,62,13,21]; @symbol_param<0> = [dc,62,22,24]; @symbol_param<0>_type<0> = [Dc,62,28,30]; ]
     function onUpdate(dc as Dc) as Void {
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_61_40_68_4_start:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 63 8 ]
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_62_40_69_4_start:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 64 8 ]
         %tmp.1 = self;
-        symbol [ displayActivity %tmp.2 63 8 23 ];
+        symbol [ displayActivity %tmp.2 64 8 23 ];
         %tmp.2 = getv function %tmp.1 :displayActivity;
         invoke %tmp.1 %tmp.2();
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 65 8 ]
-        symbol [ View %tmp.4 65 8 12 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 66 8 ]
+        symbol [ View %tmp.4 66 8 12 ];
         %tmp.4 = getv ? :View;
-        symbol [ onUpdate %tmp.5 65 13 21 ];
+        symbol [ onUpdate %tmp.5 66 13 21 ];
         %tmp.5 = getv function %tmp.4 :onUpdate;
         %tmp.6 = lgetv %dc;
-        symbol [ dc %tmp.6 65 22 24 ];
+        symbol [ dc %tmp.6 66 22 24 ];
         invoke %tmp.4 %tmp.5(%tmp.6);
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 67 8 ]
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 68 8 ]
         %tmp.7 = self;
-        symbol [ drawCadenceChart %tmp.8 67 8 24 ];
+        symbol [ drawCadenceChart %tmp.8 68 8 24 ];
         %tmp.8 = getv function %tmp.7 :drawCadenceChart;
         %tmp.9 = lgetv %dc;
-        symbol [ dc %tmp.9 67 25 27 ];
+        symbol [ dc %tmp.9 68 25 27 ];
         invoke %tmp.7 %tmp.8(%tmp.9);
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_61_40_68_4_stop:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_62_40_69_4_stop:
     }
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 70; @symbol_functiondef = [onHide,70,13,19]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 71; @symbol_functiondef = [onHide,71,13,19]; ]
     function onHide() as Void {
     }
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 73; @symbol_functiondef = [refreshScreen,73,13,26]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 74; @symbol_functiondef = [refreshScreen,74,13,26]; ]
     function refreshScreen() as Void {
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_73_36_75_4_start:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 74 8 ]
-        symbol [ WatchUi %tmp.1 74 8 15 ];
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_74_36_76_4_start:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 75 8 ]
+        symbol [ WatchUi %tmp.1 75 8 15 ];
         %tmp.1 = getm $.Toybox.WatchUi;
-        symbol [ requestUpdate %tmp.2 74 16 29 ];
+        symbol [ requestUpdate %tmp.2 75 16 29 ];
         %tmp.2 = getv function %tmp.1 :requestUpdate;
         invoke %tmp.1 %tmp.2();
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_73_36_75_4_stop:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_74_36_76_4_stop:
     }
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 77; @symbol_functiondef = [displayActivity,77,13,28]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 78; @symbol_functiondef = [displayActivity,78,13,28]; ]
     function displayActivity() as Void {
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_77_38_117_4_start:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 78 8 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_77_38_117_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_77_38_117_4_stop" ]
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_78_38_118_4_start:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 79 8 ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_78_38_118_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_78_38_118_4_stop" ]
         %info.1 = local;
-        symbol [ info %info.1 78 12 16 ];
-        symbol [ Activity %tmp.1 78 19 27 ];
+        symbol [ info %info.1 79 12 16 ];
+        symbol [ Activity %tmp.1 79 19 27 ];
         %tmp.1 = getm $.Toybox.Activity;
-        symbol [ getActivityInfo %tmp.2 78 28 43 ];
+        symbol [ getActivityInfo %tmp.2 79 28 43 ];
         %tmp.2 = getv function %tmp.1 :getActivityInfo;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %info.1 %tmp.3;
-        symbol [ info %info.1 78 12 16 ];
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 81 8 ]
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_81_8_102_8_if_stmt:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_81_12_81_51_begin:
+        symbol [ info %info.1 79 12 16 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 82 8 ]
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_82_8_103_8_if_stmt:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_82_12_82_51_begin:
         %tmp.4 = lgetv %info.1;
-        symbol [ info %tmp.4 81 12 16 ];
+        symbol [ info %tmp.4 82 12 16 ];
         %tmp.5 = null;
         %tmp.6 = ne %tmp.4 %tmp.5;
-        bf %tmp.6 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_81_8_102_8_if_else_false;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_81_28_81_51_true:
+        bf %tmp.6 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_82_8_103_8_if_else_false;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_82_28_82_51_true:
         %tmp.7 = lgetv %info.1;
-        symbol [ info %tmp.7 81 28 32 ];
+        symbol [ info %tmp.7 82 28 32 ];
         %tmp.8 = as %tmp.7 { (!Null) };
-        symbol [ currentCadence %tmp.9 81 33 47 ];
+        symbol [ currentCadence %tmp.9 82 33 47 ];
         %tmp.9 = getv %tmp.8 :currentCadence;
         %tmp.10 = null;
         %tmp.11 = ne %tmp.9 %tmp.10;
         push %tmp.11;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_81_28_81_51_end:
-        %tmp.12 = phi [%tmp.6 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_81_12_81_51_begin] [%tmp.11 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_81_28_81_51_true] [%tmp.12 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_81_28_81_51_end];
-        bf %tmp.12 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_81_8_102_8_if_else_false;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_81_8_102_8_if_true:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_81_56_100_8_start:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 87 12 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_81_56_100_8_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_81_56_100_8_stop" ]
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_82_28_82_51_end:
+        %tmp.12 = phi [%tmp.6 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_82_12_82_51_begin] [%tmp.11 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_82_28_82_51_true] [%tmp.12 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_82_28_82_51_end];
+        bf %tmp.12 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_82_8_103_8_if_else_false;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_82_8_103_8_if_true:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_82_56_101_8_start:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 88 12 ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_82_56_101_8_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_82_56_101_8_stop" ]
         %newCadence.2 = local;
-        symbol [ newCadence %newCadence.2 87 16 26 ];
+        symbol [ newCadence %newCadence.2 88 16 26 ];
         %tmp.13 = lgetv %info.1;
-        symbol [ info %tmp.13 87 29 33 ];
+        symbol [ info %tmp.13 88 29 33 ];
         %tmp.14 = as %tmp.13 { (!Null) };
-        symbol [ currentCadence %tmp.15 87 34 48 ];
+        symbol [ currentCadence %tmp.15 88 34 48 ];
         %tmp.15 = getv %tmp.14 :currentCadence;
-        symbol [ toFloat %tmp.16 87 49 56 ];
+        symbol [ toFloat %tmp.16 88 49 56 ];
         %tmp.16 = getv function %tmp.15 :toFloat;
         %tmp.17 = invoke %tmp.15 %tmp.16();
         lputv %newCadence.2 %tmp.17;
-        symbol [ newCadence %newCadence.2 87 16 26 ];
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 88 12 ]
-        symbol [ _cadenceDisplay %tmp.19 88 12 27 ];
+        symbol [ newCadence %newCadence.2 88 16 26 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 89 12 ]
+        symbol [ _cadenceDisplay %tmp.19 89 12 27 ];
         %tmp.19 = getv ? :_cadenceDisplay;
-        symbol [ setText %tmp.20 88 28 35 ];
+        symbol [ setText %tmp.20 89 28 35 ];
         %tmp.20 = getv function %tmp.19 :setText;
         %tmp.21 = lgetv %info.1;
-        symbol [ info %tmp.21 88 36 40 ];
+        symbol [ info %tmp.21 89 36 40 ];
         %tmp.22 = as %tmp.21 { (!Null) };
-        symbol [ currentCadence %tmp.23 88 41 55 ];
+        symbol [ currentCadence %tmp.23 89 41 55 ];
         %tmp.23 = getv %tmp.22 :currentCadence;
-        symbol [ toString %tmp.24 88 56 64 ];
+        symbol [ toString %tmp.24 89 56 64 ];
         %tmp.24 = getv function %tmp.23 :toString;
         %tmp.25 = invoke %tmp.23 %tmp.24();
         %tmp.26 = "SPM";
         %tmp.27 = add %tmp.25 %tmp.26;
         invoke %tmp.19 %tmp.20(%tmp.27);
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 90 12 ]
-        symbol [ _cadenceHistory %tmp.28 90 12 27 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 91 12 ]
+        symbol [ _cadenceHistory %tmp.28 91 12 27 ];
         %tmp.28 = getv self :_cadenceHistory;
         %tmp.29 = lgetv %newCadence.2;
-        symbol [ newCadence %tmp.29 90 43 53 ];
-        symbol [ _writeIndex %tmp.31 90 28 39 ];
+        symbol [ newCadence %tmp.29 91 43 53 ];
+        symbol [ _writeIndex %tmp.31 91 28 39 ];
         %tmp.31 = getv ? :_writeIndex;
         aputv %tmp.28 %tmp.31 %tmp.29;
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 93 12 ]
-        symbol [ _writeIndex %tmp.33 93 27 38 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 94 12 ]
+        symbol [ _writeIndex %tmp.33 94 27 38 ];
         %tmp.33 = getv ? :_writeIndex;
         %tmp.34 = 1;
         %tmp.35 = add %tmp.33 %tmp.34;
-        symbol [ MAX_BARS %tmp.37 93 46 54 ];
+        symbol [ MAX_BARS %tmp.37 94 46 54 ];
         %tmp.37 = getv ? :MAX_BARS;
         %tmp.38 = mod %tmp.35 %tmp.37;
-        symbol [ _writeIndex ? 93 12 23 ];
+        symbol [ _writeIndex ? 94 12 23 ];
         putv self :_writeIndex %tmp.38;
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 95 12 ]
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_95_12_98_12_if_stmt:
-        symbol [ _valueCount %tmp.40 95 15 26 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 96 12 ]
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_96_12_99_12_if_stmt:
+        symbol [ _valueCount %tmp.40 96 15 26 ];
         %tmp.40 = getv ? :_valueCount;
-        symbol [ MAX_BARS %tmp.42 95 29 37 ];
+        symbol [ MAX_BARS %tmp.42 96 29 37 ];
         %tmp.42 = getv ? :MAX_BARS;
         %tmp.43 = lt %tmp.40 %tmp.42;
-        bf %tmp.43 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_95_12_98_12_if_end;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_95_12_98_12_if_true:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_96_12_98_12_start:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 97 16 ]
-        symbol [ _valueCount %tmp.46 97 16 27 ];
+        bf %tmp.43 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_96_12_99_12_if_end;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_96_12_99_12_if_true:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_97_12_99_12_start:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 98 16 ]
+        symbol [ _valueCount %tmp.46 98 16 27 ];
         %tmp.46 = getv ? :_valueCount;
         %tmp.47 = add %tmp.46 1;
-        symbol [ _valueCount ? 97 16 27 ];
+        symbol [ _valueCount ? 98 16 27 ];
         putv self :_valueCount dup %tmp.47;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_96_12_98_12_stop:
-        goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_95_12_98_12_if_end;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_95_12_98_12_if_end:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_81_56_100_8_stop:
-        goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_81_8_102_8_if_end;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_81_8_102_8_if_else_false:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_100_13_102_8_start:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 101 12 ]
-        symbol [ _cadenceDisplay %tmp.49 101 12 27 ];
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_97_12_99_12_stop:
+        goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_96_12_99_12_if_end;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_96_12_99_12_if_end:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_82_56_101_8_stop:
+        goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_82_8_103_8_if_end;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_82_8_103_8_if_else_false:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_101_13_103_8_start:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 102 12 ]
+        symbol [ _cadenceDisplay %tmp.49 102 12 27 ];
         %tmp.49 = getv ? :_cadenceDisplay;
-        symbol [ setText %tmp.50 101 28 35 ];
+        symbol [ setText %tmp.50 102 28 35 ];
         %tmp.50 = getv function %tmp.49 :setText;
         %tmp.51 = "--";
         invoke %tmp.49 %tmp.50(%tmp.51);
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_100_13_102_8_stop:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_81_8_102_8_if_end:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 105 8 ]
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_105_8_109_8_if_stmt:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_105_12_105_53_begin:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_101_13_103_8_stop:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_82_8_103_8_if_end:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 106 8 ]
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_106_8_110_8_if_stmt:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_106_12_106_53_begin:
         %tmp.52 = lgetv %info.1;
-        symbol [ info %tmp.52 105 12 16 ];
+        symbol [ info %tmp.52 106 12 16 ];
         %tmp.53 = null;
         %tmp.54 = ne %tmp.52 %tmp.53;
-        bf %tmp.54 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_105_8_109_8_if_else_false;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_105_28_105_53_true:
+        bf %tmp.54 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_106_8_110_8_if_else_false;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_106_28_106_53_true:
         %tmp.55 = lgetv %info.1;
-        symbol [ info %tmp.55 105 28 32 ];
+        symbol [ info %tmp.55 106 28 32 ];
         %tmp.56 = as %tmp.55 { (!Null) };
-        symbol [ currentHeartRate %tmp.57 105 33 49 ];
+        symbol [ currentHeartRate %tmp.57 106 33 49 ];
         %tmp.57 = getv %tmp.56 :currentHeartRate;
         %tmp.58 = null;
         %tmp.59 = ne %tmp.57 %tmp.58;
         push %tmp.59;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_105_28_105_53_end:
-        %tmp.60 = phi [%tmp.54 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_105_12_105_53_begin] [%tmp.59 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_105_28_105_53_true] [%tmp.60 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_105_28_105_53_end];
-        bf %tmp.60 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_105_8_109_8_if_else_false;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_105_8_109_8_if_true:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_105_58_107_8_start:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 106 12 ]
-        symbol [ _heartrateDisplay %tmp.62 106 12 29 ];
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_106_28_106_53_end:
+        %tmp.60 = phi [%tmp.54 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_106_12_106_53_begin] [%tmp.59 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_106_28_106_53_true] [%tmp.60 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_106_28_106_53_end];
+        bf %tmp.60 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_106_8_110_8_if_else_false;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_106_8_110_8_if_true:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_106_58_108_8_start:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 107 12 ]
+        symbol [ _heartrateDisplay %tmp.62 107 12 29 ];
         %tmp.62 = getv ? :_heartrateDisplay;
-        symbol [ setText %tmp.63 106 30 37 ];
+        symbol [ setText %tmp.63 107 30 37 ];
         %tmp.63 = getv function %tmp.62 :setText;
         %tmp.64 = lgetv %info.1;
-        symbol [ info %tmp.64 106 38 42 ];
+        symbol [ info %tmp.64 107 38 42 ];
         %tmp.65 = as %tmp.64 { (!Null) };
-        symbol [ currentHeartRate %tmp.66 106 43 59 ];
+        symbol [ currentHeartRate %tmp.66 107 43 59 ];
         %tmp.66 = getv %tmp.65 :currentHeartRate;
-        symbol [ toString %tmp.67 106 60 68 ];
+        symbol [ toString %tmp.67 107 60 68 ];
         %tmp.67 = getv function %tmp.66 :toString;
         %tmp.68 = invoke %tmp.66 %tmp.67();
         %tmp.69 = "BPM";
         %tmp.70 = add %tmp.68 %tmp.69;
         invoke %tmp.62 %tmp.63(%tmp.70);
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_105_58_107_8_stop:
-        goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_105_8_109_8_if_end;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_105_8_109_8_if_else_false:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_107_13_109_8_start:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 108 12 ]
-        symbol [ _heartrateDisplay %tmp.72 108 12 29 ];
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_106_58_108_8_stop:
+        goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_106_8_110_8_if_end;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_106_8_110_8_if_else_false:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_108_13_110_8_start:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 109 12 ]
+        symbol [ _heartrateDisplay %tmp.72 109 12 29 ];
         %tmp.72 = getv ? :_heartrateDisplay;
-        symbol [ setText %tmp.73 108 30 37 ];
+        symbol [ setText %tmp.73 109 30 37 ];
         %tmp.73 = getv function %tmp.72 :setText;
         %tmp.74 = "--";
         invoke %tmp.72 %tmp.73(%tmp.74);
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_107_13_109_8_stop:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_105_8_109_8_if_end:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 112 8 ]
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_108_13_110_8_stop:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_106_8_110_8_if_end:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 113 8 ]
         %tmp.75 = self;
-        symbol [ CadenceCalculator %tmp.76 112 8 25 ];
+        symbol [ CadenceCalculator %tmp.76 113 8 25 ];
         %tmp.76 = getv function %tmp.75 :CadenceCalculator;
         invoke %tmp.75 %tmp.76();
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 113 8 ]
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_113_8_116_8_if_stmt:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_113_11_113_59_begin:
-        symbol [ _idealMinCadence %tmp.78 113 11 27 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 114 8 ]
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_114_8_117_8_if_stmt:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_114_11_114_59_begin:
+        symbol [ _idealMinCadence %tmp.78 114 11 27 ];
         %tmp.78 = getv ? :_idealMinCadence;
         %tmp.79 = null;
         %tmp.80 = ne %tmp.78 %tmp.79;
-        bf %tmp.80 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_113_8_116_8_if_end;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_113_39_113_59_true:
-        symbol [ _idealMaxCadence %tmp.82 113 39 55 ];
+        bf %tmp.80 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_114_8_117_8_if_end;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_114_39_114_59_true:
+        symbol [ _idealMaxCadence %tmp.82 114 39 55 ];
         %tmp.82 = getv ? :_idealMaxCadence;
         %tmp.83 = null;
         %tmp.84 = ne %tmp.82 %tmp.83;
         push %tmp.84;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_113_39_113_59_end:
-        %tmp.85 = phi [%tmp.80 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_113_11_113_59_begin] [%tmp.84 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_113_39_113_59_true] [%tmp.85 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_113_39_113_59_end];
-        bf %tmp.85 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_113_8_116_8_if_end;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_113_8_116_8_if_true:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_113_64_116_8_start:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 114 12 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_113_64_116_8_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_113_64_116_8_stop" ]
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_114_39_114_59_end:
+        %tmp.85 = phi [%tmp.80 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_114_11_114_59_begin] [%tmp.84 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_114_39_114_59_true] [%tmp.85 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_114_39_114_59_end];
+        bf %tmp.85 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_114_8_117_8_if_end;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_114_8_117_8_if_true:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_114_64_117_8_start:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 115 12 ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_114_64_117_8_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_114_64_117_8_stop" ]
         %displayString.3 = local;
-        symbol [ displayString %displayString.3 114 16 29 ];
-        symbol [ _idealMinCadence %tmp.87 114 33 49 ];
+        symbol [ displayString %displayString.3 115 16 29 ];
+        symbol [ _idealMinCadence %tmp.87 115 33 49 ];
         %tmp.87 = getv ? :_idealMinCadence;
         %tmp.88 = as %tmp.87 { (!Null) };
         %tmp.89 = " - ";
         %tmp.90 = add %tmp.88 %tmp.89;
-        symbol [ _idealMaxCadence %tmp.92 114 60 76 ];
+        symbol [ _idealMaxCadence %tmp.92 115 60 76 ];
         %tmp.92 = getv ? :_idealMaxCadence;
         %tmp.93 = as %tmp.92 { (!Null) };
         %tmp.94 = add %tmp.90 %tmp.93;
-        symbol [ toString %tmp.95 114 78 86 ];
+        symbol [ toString %tmp.95 115 78 86 ];
         %tmp.95 = getv function %tmp.94 :toString;
         %tmp.96 = invoke %tmp.94 %tmp.95();
         lputv %displayString.3 %tmp.96;
-        symbol [ displayString %displayString.3 114 16 29 ];
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 115 12 ]
-        symbol [ _cadenceRangeDisplay %tmp.98 115 12 32 ];
+        symbol [ displayString %displayString.3 115 16 29 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 116 12 ]
+        symbol [ _cadenceRangeDisplay %tmp.98 116 12 32 ];
         %tmp.98 = getv ? :_cadenceRangeDisplay;
-        symbol [ setText %tmp.99 115 33 40 ];
+        symbol [ setText %tmp.99 116 33 40 ];
         %tmp.99 = getv function %tmp.98 :setText;
         %tmp.100 = lgetv %displayString.3;
-        symbol [ displayString %tmp.100 115 41 54 ];
+        symbol [ displayString %tmp.100 116 41 54 ];
         invoke %tmp.98 %tmp.99(%tmp.100);
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_113_64_116_8_stop:
-        goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_113_8_116_8_if_end;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_113_8_116_8_if_end:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_77_38_117_4_stop:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_114_64_117_8_stop:
+        goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_114_8_117_8_if_end;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_114_8_117_8_if_end:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_78_38_118_4_stop:
     }
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 122; @symbol_functiondef = [RetrieveSpeed,122,13,26]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 123; @symbol_functiondef = [RetrieveSpeed,123,13,26]; ]
     function RetrieveSpeed() as Void {
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_123_4_140_4_start:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 125 8 ]
-        try @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_8_139_8_beginTry @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_8_139_8_endTry @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_8_139_8_catch @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_8_139_8_finally;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_8_139_8_beginTry:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_11_134_8_start:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 126 12 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_11_134_8_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_11_134_8_stop" ]
-        %speed.1 = local;
-        symbol [ speed %speed.1 126 16 21 ];
-        symbol [ Sensor %tmp.2 126 24 30 ];
-        %tmp.2 = getv ? :Sensor;
-        symbol [ getInfo %tmp.3 126 31 38 ];
-        %tmp.3 = getv function %tmp.2 :getInfo;
-        %tmp.4 = invoke %tmp.2 %tmp.3();
-        symbol [ speed %tmp.5 126 41 46 ];
-        %tmp.5 = getv %tmp.4 :speed;
-        lputv %speed.1 %tmp.5;
-        symbol [ speed %speed.1 126 16 21 ];
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_124_4_141_4_start:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 126 8 ]
+        try @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_8_140_8_beginTry @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_8_140_8_endTry @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_8_140_8_catch @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_8_140_8_finally;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_8_140_8_beginTry:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_11_135_8_start:
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 127 12 ]
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_127_12_131_12_if_stmt:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_127_15_127_41_begin:
-        %tmp.6 = lgetv %speed.1;
-        symbol [ speed %tmp.6 127 15 20 ];
-        %tmp.7 = null;
-        %tmp.8 = eq %tmp.6 %tmp.7;
-        bt %tmp.8 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_127_12_131_12_if_true;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_127_32_127_41_false:
-        %tmp.9 = lgetv %speed.1;
-        symbol [ speed %tmp.9 127 32 37 ];
-        %tmp.10 = as %tmp.9 { (!Null) };
-        %tmp.11 = 0;
-        %tmp.12 = lte %tmp.10 %tmp.11;
-        push %tmp.12;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_127_32_127_41_end:
-        %tmp.13 = phi [%tmp.8 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_127_15_127_41_begin] [%tmp.12 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_127_32_127_41_false] [%tmp.13 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_127_32_127_41_end];
-        bf %tmp.13 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_127_12_131_12_if_end;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_127_12_131_12_if_true:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_127_43_131_12_start:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 128 16 ]
-        symbol [ System %tmp.15 128 16 22 ];
-        %tmp.15 = getv ? :System;
-        symbol [ println %tmp.16 128 23 30 ];
-        %tmp.16 = getv function %tmp.15 :println;
-        %tmp.17 = "Speed data is null";
-        invoke %tmp.15 %tmp.16(%tmp.17);
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_11_135_8_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_11_135_8_stop" ]
+        %speed.1 = local;
+        symbol [ speed %speed.1 127 16 21 ];
+        symbol [ Sensor %tmp.1 127 24 30 ];
+        %tmp.1 = getm $.Toybox.Sensor;
+        symbol [ getInfo %tmp.2 127 31 38 ];
+        %tmp.2 = getv function %tmp.1 :getInfo;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ speed %tmp.4 127 41 46 ];
+        %tmp.4 = getv %tmp.3 :speed;
+        lputv %speed.1 %tmp.4;
+        symbol [ speed %speed.1 127 16 21 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 128 12 ]
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_128_12_132_12_if_stmt:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_128_15_128_41_begin:
+        %tmp.5 = lgetv %speed.1;
+        symbol [ speed %tmp.5 128 15 20 ];
+        %tmp.6 = null;
+        %tmp.7 = eq %tmp.5 %tmp.6;
+        bt %tmp.7 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_128_12_132_12_if_true;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_128_32_128_41_false:
+        %tmp.8 = lgetv %speed.1;
+        symbol [ speed %tmp.8 128 32 37 ];
+        %tmp.9 = as %tmp.8 { (!Null) };
+        %tmp.10 = 0;
+        %tmp.11 = lte %tmp.9 %tmp.10;
+        push %tmp.11;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_128_32_128_41_end:
+        %tmp.12 = phi [%tmp.7 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_128_15_128_41_begin] [%tmp.11 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_128_32_128_41_false] [%tmp.12 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_128_32_128_41_end];
+        bf %tmp.12 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_128_12_132_12_if_end;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_128_12_132_12_if_true:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_128_43_132_12_start:
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 129 16 ]
-        %tmp.18 = 0;
-        symbol [ _userSpeed ? 129 16 26 ];
-        putv self :_userSpeed %tmp.18;
+        symbol [ System %tmp.14 129 16 22 ];
+        %tmp.14 = getv ? :System;
+        symbol [ println %tmp.15 129 23 30 ];
+        %tmp.15 = getv function %tmp.14 :println;
+        %tmp.16 = "Speed data is null";
+        invoke %tmp.14 %tmp.15(%tmp.16);
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 130 16 ]
-        jsr @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_8_139_8_finally;
+        %tmp.17 = 0;
+        symbol [ _userSpeed ? 130 16 26 ];
+        putv self :_userSpeed %tmp.17;
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 131 16 ]
+        jsr @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_8_140_8_finally;
         ret ?;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_127_43_131_12_stop:
-        goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_127_12_131_12_if_end;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_127_12_131_12_if_end:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 132 12 ]
-        %tmp.19 = lgetv %speed.1;
-        symbol [ speed %tmp.19 132 25 30 ];
-        symbol [ _userSpeed ? 132 12 22 ];
-        putv self :_userSpeed %tmp.19;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_11_134_8_stop:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_8_139_8_endTry:
-        jsr @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_8_139_8_finally;
-        goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_8_139_8_end;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_8_139_8_catch:
-        %tmp.20 = exception;
-        push %tmp.20;
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 135 8 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_8_139_8_catch" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_135_8_139_8_end" ]
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_128_43_132_12_stop:
+        goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_128_12_132_12_if_end;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_128_12_132_12_if_end:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 133 12 ]
+        %tmp.18 = lgetv %speed.1;
+        symbol [ speed %tmp.18 133 25 30 ];
+        symbol [ _userSpeed ? 133 12 22 ];
+        putv self :_userSpeed %tmp.18;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_11_135_8_stop:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_8_140_8_endTry:
+        jsr @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_8_140_8_finally;
+        goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_8_140_8_end;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_8_140_8_catch:
+        %tmp.19 = exception;
+        push %tmp.19;
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 136 8 ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_8_140_8_catch" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_136_8_140_8_end" ]
         %error.2 = local;
-        symbol [ error %error.2 135 15 20 ];
-        %tmp.21 = dup %tmp.20;
-        lputv %error.2 %tmp.21;
-        symbol [ error %error.2 135 15 20 ];
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_135_21_139_8_start:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 136 12 ]
-        symbol [ System %tmp.23 136 12 18 ];
-        %tmp.23 = getv ? :System;
-        symbol [ println %tmp.24 136 19 26 ];
-        %tmp.24 = getv function %tmp.23 :println;
-        %tmp.25 = "Error retrieving speed data";
-        invoke %tmp.23 %tmp.24(%tmp.25);
+        symbol [ error %error.2 136 15 20 ];
+        %tmp.20 = dup %tmp.19;
+        lputv %error.2 %tmp.20;
+        symbol [ error %error.2 136 15 20 ];
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_136_21_140_8_start:
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 137 12 ]
-        %tmp.26 = 0;
-        symbol [ _userSpeed ? 137 12 22 ];
-        putv self :_userSpeed %tmp.26;
+        symbol [ System %tmp.22 137 12 18 ];
+        %tmp.22 = getv ? :System;
+        symbol [ println %tmp.23 137 19 26 ];
+        %tmp.23 = getv function %tmp.22 :println;
+        %tmp.24 = "Error retrieving speed data";
+        invoke %tmp.22 %tmp.23(%tmp.24);
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 138 12 ]
+        %tmp.25 = 0;
+        symbol [ _userSpeed ? 138 12 22 ];
+        putv self :_userSpeed %tmp.25;
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 139 12 ]
         pop;
-        jsr @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_8_139_8_finally;
+        jsr @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_8_140_8_finally;
         ret ?;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_135_21_139_8_stop:
-        jsr @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_8_139_8_finally;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_136_21_140_8_stop:
+        jsr @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_8_140_8_finally;
         pop;
-        goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_8_139_8_end;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_135_8_139_8_end:
-        try @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_8_139_8_catch @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_135_8_139_8_end @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_135_8_139_8_end @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_8_139_8_finally;
-        jsr @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_8_139_8_finally;
-        throw %tmp.20;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_8_139_8_finally:
+        goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_8_140_8_end;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_136_8_140_8_end:
+        try @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_8_140_8_catch @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_136_8_140_8_end @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_136_8_140_8_end @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_8_140_8_finally;
+        jsr @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_8_140_8_finally;
+        throw %tmp.19;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_8_140_8_finally:
         jsrret;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_125_8_139_8_end:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_123_4_140_4_stop:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_126_8_140_8_end:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_124_4_141_4_stop:
     }
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 146; @symbol_functiondef = [CadenceCalculator,146,13,30]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 147; @symbol_functiondef = [CadenceCalculator,147,13,30]; ]
     function CadenceCalculator() as Void {
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_147_4_180_4_start:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 148 8 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_147_4_180_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_147_4_180_4_stop" ]
-        %cadence_baseline.1 = local;
-        symbol [ cadence_baseline %cadence_baseline.1 148 12 28 ];
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_148_4_181_4_start:
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 149 8 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_147_4_180_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_147_4_180_4_stop" ]
-        %height_Factor.2 = local;
-        symbol [ height_Factor %height_Factor.2 149 12 25 ];
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_148_4_181_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_148_4_181_4_stop" ]
+        %cadence_baseline.1 = local;
+        symbol [ cadence_baseline %cadence_baseline.1 149 12 28 ];
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 150 8 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_147_4_180_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_147_4_180_4_stop" ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_148_4_181_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_148_4_181_4_stop" ]
+        %height_Factor.2 = local;
+        symbol [ height_Factor %height_Factor.2 150 12 25 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 151 8 ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_148_4_181_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_148_4_181_4_stop" ]
         %cadence_final.3 = local;
-        symbol [ cadence_final %cadence_final.3 150 12 25 ];
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 152 8 ]
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_152_8_154_8_if_stmt:
-        symbol [ _userHeight %tmp.2 152 11 22 ];
+        symbol [ cadence_final %cadence_final.3 151 12 25 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 153 8 ]
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_153_8_155_8_if_stmt:
+        symbol [ _userHeight %tmp.2 153 11 22 ];
         %tmp.2 = getv ? :_userHeight;
         %tmp.3 = null;
         %tmp.4 = eq %tmp.2 %tmp.3;
-        bf %tmp.4 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_152_8_154_8_if_end;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_152_8_154_8_if_true:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_152_31_154_8_start:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 153 12 ]
+        bf %tmp.4 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_153_8_155_8_if_end;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_153_8_155_8_if_true:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_153_31_155_8_start:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 154 12 ]
         %tmp.5 = 0;
-        symbol [ _userHeight ? 153 12 23 ];
+        symbol [ _userHeight ? 154 12 23 ];
         putv self :_userHeight %tmp.5;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_152_31_154_8_stop:
-        goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_152_8_154_8_if_end;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_152_8_154_8_if_end:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 156 8 ]
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_153_31_155_8_stop:
+        goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_153_8_155_8_if_end;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_153_8_155_8_if_end:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 157 8 ]
         %tmp.6 = self;
-        symbol [ RetrieveSpeed %tmp.7 156 8 21 ];
+        symbol [ RetrieveSpeed %tmp.7 157 8 21 ];
         %tmp.7 = getv function %tmp.6 :RetrieveSpeed;
         invoke %tmp.6 %tmp.7();
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 157 8 ]
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_157_8_179_8_if_stmt:
-        symbol [ _userSpeed %tmp.9 157 11 21 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 158 8 ]
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_158_8_180_8_if_stmt:
+        symbol [ _userSpeed %tmp.9 158 11 21 ];
         %tmp.9 = getv ? :_userSpeed;
         %tmp.10 = 0;
         %tmp.11 = ne %tmp.9 %tmp.10;
-        bf %tmp.11 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_157_8_179_8_if_else_false;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_157_8_179_8_if_true:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_157_27_176_8_start:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 158 12 ]
-        symbol [ BASELINE_AVG_CADENCE %tmp.13 158 31 51 ];
+        bf %tmp.11 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_158_8_180_8_if_else_false;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_158_8_180_8_if_true:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_158_27_177_8_start:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 159 12 ]
+        symbol [ BASELINE_AVG_CADENCE %tmp.13 159 31 51 ];
         %tmp.13 = getv ? :BASELINE_AVG_CADENCE;
-        symbol [ STEP_RATE %tmp.15 158 54 63 ];
+        symbol [ STEP_RATE %tmp.15 159 54 63 ];
         %tmp.15 = getv ? :STEP_RATE;
-        symbol [ _userSpeed %tmp.17 158 66 76 ];
+        symbol [ _userSpeed %tmp.17 159 66 76 ];
         %tmp.17 = getv ? :_userSpeed;
         %tmp.18 = mul %tmp.15 %tmp.17;
         %tmp.19 = add %tmp.13 %tmp.18;
         lputv %cadence_baseline.1 %tmp.19;
-        symbol [ cadence_baseline %cadence_baseline.1 158 12 28 ];
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 160 12 ]
-        symbol [ Math %tmp.20 160 28 32 ];
+        symbol [ cadence_baseline %cadence_baseline.1 159 12 28 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 161 12 ]
+        symbol [ Math %tmp.20 161 28 32 ];
         %tmp.20 = getm $.Toybox.Math;
-        symbol [ sqrt %tmp.21 160 33 37 ];
+        symbol [ sqrt %tmp.21 161 33 37 ];
         %tmp.21 = getv function %tmp.20 :sqrt;
-        symbol [ HEIGHT_BASELINE %tmp.23 160 38 53 ];
+        symbol [ HEIGHT_BASELINE %tmp.23 161 38 53 ];
         %tmp.23 = getv ? :HEIGHT_BASELINE;
         %tmp.24 = 1.0;
         %tmp.25 = mul %tmp.23 %tmp.24;
-        symbol [ _userHeight %tmp.27 160 62 73 ];
+        symbol [ _userHeight %tmp.27 161 62 73 ];
         %tmp.27 = getv ? :_userHeight;
         %tmp.28 = div %tmp.25 %tmp.27;
         %tmp.29 = invoke %tmp.20 %tmp.21(%tmp.28);
         lputv %height_Factor.2 %tmp.29;
-        symbol [ height_Factor %height_Factor.2 160 12 25 ];
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 161 12 ]
+        symbol [ height_Factor %height_Factor.2 161 12 25 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 162 12 ]
         %tmp.30 = lgetv %cadence_baseline.1;
-        symbol [ cadence_baseline %tmp.30 161 28 44 ];
+        symbol [ cadence_baseline %tmp.30 162 28 44 ];
         %tmp.31 = lgetv %height_Factor.2;
-        symbol [ height_Factor %tmp.31 161 47 60 ];
+        symbol [ height_Factor %tmp.31 162 47 60 ];
         %tmp.32 = mul %tmp.30 %tmp.31;
         lputv %cadence_final.3 %tmp.32;
-        symbol [ cadence_final %cadence_final.3 161 12 25 ];
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 163 12 ]
-        symbol [ _trainingLvl %tmp.34 163 20 32 ];
+        symbol [ cadence_final %cadence_final.3 162 12 25 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 164 12 ]
+        symbol [ _trainingLvl %tmp.34 164 20 32 ];
         %tmp.34 = getv ? :_trainingLvl;
         push %tmp.34;
-        switch %tmp.34 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_163_12_173_12_switchStmtEnd;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_163_12_173_12_switchStmtBegin:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 164 16 ]
+        switch %tmp.34 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_164_12_174_12_switchStmtEnd;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_164_12_174_12_switchStmtBegin:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 165 16 ]
         %tmp.35 = dup %tmp.34;
-        symbol [ Beginner %tmp.37 164 21 29 ];
+        symbol [ Beginner %tmp.37 165 21 29 ];
         %tmp.37 = getv ? :Beginner;
         %tmp.38 = getv function %tmp.35 :equals;
         %tmp.39 = invoke %tmp.35 %tmp.38 (%tmp.37);
-        bt %tmp.39 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_164_16_166_25_switchCase;
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 167 16 ]
+        bt %tmp.39 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_165_16_167_25_switchCase;
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 168 16 ]
         %tmp.40 = dup %tmp.34;
-        symbol [ Intermediate %tmp.42 167 21 33 ];
+        symbol [ Intermediate %tmp.42 168 21 33 ];
         %tmp.42 = getv ? :Intermediate;
         %tmp.43 = getv function %tmp.40 :equals;
         %tmp.44 = invoke %tmp.40 %tmp.43 (%tmp.42);
-        bt %tmp.44 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_167_16_169_25_switchCase;
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 170 16 ]
+        bt %tmp.44 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_168_16_170_25_switchCase;
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 171 16 ]
         %tmp.45 = dup %tmp.34;
-        symbol [ Advanced %tmp.47 170 21 29 ];
+        symbol [ Advanced %tmp.47 171 21 29 ];
         %tmp.47 = getv ? :Advanced;
         %tmp.48 = getv function %tmp.45 :equals;
         %tmp.49 = invoke %tmp.45 %tmp.48 (%tmp.47);
-        bt %tmp.49 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_170_16_172_25_switchCase;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_163_12_173_12_switchStmtDefault:
-        goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_163_12_173_12_defaultCodeBegin;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_164_16_166_25_switchCase:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 165 24 ]
-        symbol [ Math %tmp.50 165 40 44 ];
+        bt %tmp.49 @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_171_16_173_25_switchCase;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_164_12_174_12_switchStmtDefault:
+        goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_164_12_174_12_defaultCodeBegin;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_165_16_167_25_switchCase:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 166 24 ]
+        symbol [ Math %tmp.50 166 40 44 ];
         %tmp.50 = getm $.Toybox.Math;
-        symbol [ round %tmp.51 165 45 50 ];
+        symbol [ round %tmp.51 166 45 50 ];
         %tmp.51 = getv function %tmp.50 :round;
         %tmp.52 = lgetv %cadence_final.3;
-        symbol [ cadence_final %tmp.52 165 51 64 ];
-        symbol [ Beginner %tmp.54 165 67 75 ];
+        symbol [ cadence_final %tmp.52 166 51 64 ];
+        symbol [ Beginner %tmp.54 166 67 75 ];
         %tmp.54 = getv ? :Beginner;
         %tmp.55 = mul %tmp.52 %tmp.54;
         %tmp.56 = invoke %tmp.50 %tmp.51(%tmp.55);
         lputv %cadence_final.3 %tmp.56;
-        symbol [ cadence_final %cadence_final.3 165 24 37 ];
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 166 20 ]
-        goto break @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_163_12_173_12_switchStmtEnd;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_167_16_169_25_switchCase:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 168 24 ]
-        symbol [ Math %tmp.57 168 39 43 ];
+        symbol [ cadence_final %cadence_final.3 166 24 37 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 167 20 ]
+        goto break @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_164_12_174_12_switchStmtEnd;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_168_16_170_25_switchCase:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 169 24 ]
+        symbol [ Math %tmp.57 169 39 43 ];
         %tmp.57 = getm $.Toybox.Math;
-        symbol [ round %tmp.58 168 44 49 ];
+        symbol [ round %tmp.58 169 44 49 ];
         %tmp.58 = getv function %tmp.57 :round;
         %tmp.59 = lgetv %cadence_final.3;
-        symbol [ cadence_final %tmp.59 168 50 63 ];
-        symbol [ Intermediate %tmp.61 168 66 78 ];
+        symbol [ cadence_final %tmp.59 169 50 63 ];
+        symbol [ Intermediate %tmp.61 169 66 78 ];
         %tmp.61 = getv ? :Intermediate;
         %tmp.62 = mul %tmp.59 %tmp.61;
         %tmp.63 = invoke %tmp.57 %tmp.58(%tmp.62);
         lputv %cadence_final.3 %tmp.63;
-        symbol [ cadence_final %cadence_final.3 168 24 37 ];
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 169 20 ]
-        goto break @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_163_12_173_12_switchStmtEnd;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_170_16_172_25_switchCase:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 171 24 ]
-        symbol [ Math %tmp.64 171 39 43 ];
+        symbol [ cadence_final %cadence_final.3 169 24 37 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 170 20 ]
+        goto break @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_164_12_174_12_switchStmtEnd;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_171_16_173_25_switchCase:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 172 24 ]
+        symbol [ Math %tmp.64 172 39 43 ];
         %tmp.64 = getm $.Toybox.Math;
-        symbol [ round %tmp.65 171 44 49 ];
+        symbol [ round %tmp.65 172 44 49 ];
         %tmp.65 = getv function %tmp.64 :round;
         %tmp.66 = lgetv %cadence_final.3;
-        symbol [ cadence_final %tmp.66 171 50 63 ];
-        symbol [ Advanced %tmp.68 171 66 74 ];
+        symbol [ cadence_final %tmp.66 172 50 63 ];
+        symbol [ Advanced %tmp.68 172 66 74 ];
         %tmp.68 = getv ? :Advanced;
         %tmp.69 = mul %tmp.66 %tmp.68;
         %tmp.70 = invoke %tmp.64 %tmp.65(%tmp.69);
         lputv %cadence_final.3 %tmp.70;
-        symbol [ cadence_final %cadence_final.3 171 24 37 ];
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 172 20 ]
-        goto break @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_163_12_173_12_switchStmtEnd;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_163_12_173_12_defaultCodeBegin:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_163_12_173_12_switchStmtEnd:
+        symbol [ cadence_final %cadence_final.3 172 24 37 ];
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 173 20 ]
+        goto break @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_164_12_174_12_switchStmtEnd;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_164_12_174_12_defaultCodeBegin:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_164_12_174_12_switchStmtEnd:
         pop;
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 174 12 ]
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 175 12 ]
         %tmp.71 = lgetv %cadence_final.3;
-        symbol [ cadence_final %tmp.71 174 32 45 ];
+        symbol [ cadence_final %tmp.71 175 32 45 ];
         %tmp.72 = 5;
         %tmp.73 = sub %tmp.71 %tmp.72;
-        symbol [ toNumber %tmp.74 174 51 59 ];
+        symbol [ toNumber %tmp.74 175 51 59 ];
         %tmp.74 = getv function %tmp.73 :toNumber;
         %tmp.75 = invoke %tmp.73 %tmp.74();
-        symbol [ _idealMinCadence ? 174 12 28 ];
+        symbol [ _idealMinCadence ? 175 12 28 ];
         putv self :_idealMinCadence %tmp.75;
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 175 12 ]
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 176 12 ]
         %tmp.76 = lgetv %cadence_final.3;
-        symbol [ cadence_final %tmp.76 175 32 45 ];
+        symbol [ cadence_final %tmp.76 176 32 45 ];
         %tmp.77 = 5;
         %tmp.78 = add %tmp.76 %tmp.77;
-        symbol [ toNumber %tmp.79 175 51 59 ];
+        symbol [ toNumber %tmp.79 176 51 59 ];
         %tmp.79 = getv function %tmp.78 :toNumber;
         %tmp.80 = invoke %tmp.78 %tmp.79();
-        symbol [ _idealMaxCadence ? 175 12 28 ];
+        symbol [ _idealMaxCadence ? 176 12 28 ];
         putv self :_idealMaxCadence %tmp.80;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_157_27_176_8_stop:
-        goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_157_8_179_8_if_end;
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_157_8_179_8_if_else_false:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_177_12_179_8_start:
-[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 178 12 ]
-        symbol [ System %tmp.82 178 12 18 ];
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_158_27_177_8_stop:
+        goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_158_8_180_8_if_end;
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_158_8_180_8_if_else_false:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_178_12_180_8_start:
+[ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 179 12 ]
+        symbol [ System %tmp.82 179 12 18 ];
         %tmp.82 = getv ? :System;
-        symbol [ println %tmp.83 178 19 26 ];
+        symbol [ println %tmp.83 179 19 26 ];
         %tmp.83 = getv function %tmp.82 :println;
         %tmp.84 = "No session started";
         invoke %tmp.82 %tmp.83(%tmp.84);
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_177_12_179_8_stop:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_157_8_179_8_if_end:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_147_4_180_4_stop:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_178_12_180_8_stop:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_158_8_180_8_if_end:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_148_4_181_4_stop:
     }
-    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 189; @symbol_functiondef = [drawCadenceChart,189,13,29]; @symbol_param<0> = [dc,189,30,32]; @symbol_param<0>_type<0> = [Dc,189,36,38]; ]
+    [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 190; @symbol_functiondef = [drawCadenceChart,190,13,29]; @symbol_param<0> = [dc,190,30,32]; @symbol_param<0>_type<0> = [Dc,190,36,38]; ]
     function drawCadenceChart(dc as Dc) as Void {
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_start:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_start:
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 193 8 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_stop" ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_stop" ]
         %width.1 = local;
         symbol [ width %width.1 193 12 17 ];
         %tmp.1 = lgetv %dc;
@@ -740,7 +742,7 @@ D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView
         lputv %width.1 %tmp.3;
         symbol [ width %width.1 193 12 17 ];
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 194 8 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_stop" ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_stop" ]
         %height.2 = local;
         symbol [ height %height.2 194 12 18 ];
         %tmp.4 = lgetv %dc;
@@ -751,7 +753,7 @@ D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView
         lputv %height.2 %tmp.6;
         symbol [ height %height.2 194 12 18 ];
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 197 8 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_stop" ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_stop" ]
         %margin.3 = local;
         symbol [ margin %margin.3 197 12 18 ];
         %tmp.7 = 10;
@@ -763,28 +765,28 @@ D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView
         lputv %margin.3 %tmp.11;
         symbol [ margin %margin.3 197 12 18 ];
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 198 8 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_stop" ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_stop" ]
         %marginLeftRightMultiplier.4 = local;
         symbol [ marginLeftRightMultiplier %marginLeftRightMultiplier.4 198 12 37 ];
         %tmp.12 = 1.2;
         lputv %marginLeftRightMultiplier.4 %tmp.12;
         symbol [ marginLeftRightMultiplier %marginLeftRightMultiplier.4 198 12 37 ];
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 199 8 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_stop" ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_stop" ]
         %marginTopMultiplier.5 = local;
         symbol [ marginTopMultiplier %marginTopMultiplier.5 199 12 31 ];
         %tmp.13 = 0.5;
         lputv %marginTopMultiplier.5 %tmp.13;
         symbol [ marginTopMultiplier %marginTopMultiplier.5 199 12 31 ];
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 200 8 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_stop" ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_stop" ]
         %marginBottomMultiplier.6 = local;
         symbol [ marginBottomMultiplier %marginBottomMultiplier.6 200 12 34 ];
         %tmp.14 = 2;
         lputv %marginBottomMultiplier.6 %tmp.14;
         symbol [ marginBottomMultiplier %marginBottomMultiplier.6 200 12 34 ];
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 203 8 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_stop" ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_stop" ]
         %chartLeft.7 = local;
         symbol [ chartLeft %chartLeft.7 203 12 21 ];
         %tmp.15 = lgetv %margin.3;
@@ -795,7 +797,7 @@ D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView
         lputv %chartLeft.7 %tmp.17;
         symbol [ chartLeft %chartLeft.7 203 12 21 ];
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 204 8 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_stop" ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_stop" ]
         %chartRight.8 = local;
         symbol [ chartRight %chartRight.8 204 12 22 ];
         %tmp.18 = lgetv %width.1;
@@ -806,7 +808,7 @@ D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView
         lputv %chartRight.8 %tmp.20;
         symbol [ chartRight %chartRight.8 204 12 22 ];
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 205 8 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_stop" ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_stop" ]
         %chartTop.9 = local;
         symbol [ chartTop %chartTop.9 205 12 20 ];
         %tmp.21 = lgetv %height.2;
@@ -822,7 +824,7 @@ D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView
         lputv %chartTop.9 %tmp.27;
         symbol [ chartTop %chartTop.9 205 12 20 ];
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 206 8 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_stop" ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_stop" ]
         %chartBottom.10 = local;
         symbol [ chartBottom %chartBottom.10 206 12 23 ];
         %tmp.28 = lgetv %height.2;
@@ -836,7 +838,7 @@ D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView
         lputv %chartBottom.10 %tmp.32;
         symbol [ chartBottom %chartBottom.10 206 12 23 ];
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 207 8 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_stop" ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_stop" ]
         %chartWidth.11 = local;
         symbol [ chartWidth %chartWidth.11 207 12 22 ];
         %tmp.33 = lgetv %chartRight.8;
@@ -847,7 +849,7 @@ D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView
         lputv %chartWidth.11 %tmp.35;
         symbol [ chartWidth %chartWidth.11 207 12 22 ];
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 208 8 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_stop" ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_stop" ]
         %chartHeight.12 = local;
         symbol [ chartHeight %chartHeight.12 208 12 23 ];
         %tmp.36 = lgetv %chartBottom.10;
@@ -886,7 +888,7 @@ D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView
         goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_214_8_214_37_if_end;
 D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_214_8_214_37_if_end:
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 217 8 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_stop" ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_stop" ]
         %barCount.13 = local;
         symbol [ barCount %barCount.13 217 12 20 ];
         symbol [ _valueCount %tmp.50 217 23 34 ];
@@ -908,7 +910,7 @@ D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView
         goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_218_8_218_34_if_end;
 D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_218_8_218_34_if_end:
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 219 8 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_stop" ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_stop" ]
         %barWidth.14 = local;
         symbol [ barWidth %barWidth.14 219 12 20 ];
         %tmp.54 = lgetv %chartWidth.11;
@@ -919,7 +921,7 @@ D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView
         lputv %barWidth.14 %tmp.57;
         symbol [ barWidth %barWidth.14 219 12 20 ];
 [ "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc" 222 8 ]
-        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_stop" ]
+        [ "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_start" "D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_stop" ]
         %startIndex.15 = local;
         symbol [ startIndex %startIndex.15 222 12 22 ];
         symbol [ _writeIndex %tmp.59 222 26 37 ];
@@ -1139,7 +1141,7 @@ D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView
         symbol [ i %i.16 224 37 38 ];
         goto @D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_224_8_255_8_for_test;
 D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_224_8_255_8_for_end:
-D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_190_4_256_4_stop:
+D__Deakin_Units_T3_2025_SIT374_ProjectA_TestingCadence_source_TestingCadenceView_mc_191_4_256_4_stop:
     }
 }
 [ @file = "D:\Deakin\Units\T3 2025\SIT374-ProjectA\TestingCadence\source\TestingCadenceView.mc"; @line = 1; ]

@@ -8,8 +8,8 @@
         <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceApp.mc" id="3" lineNum="5" parent="globals/TestingCadenceApp" pc="268435501" symbol="&lt;init&gt;"/>
         <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceMenuDelegate.mc" id="4" lineNum="5" parent="globals/TestingCadenceMenuDelegate" pc="268435513" symbol="&lt;init&gt;"/>
         <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceDelegate.mc" id="5" lineNum="4" parent="globals/TestingCadenceDelegate" pc="268435525" symbol="&lt;init&gt;"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="6" lineNum="11" parent="globals/TestingCadenceView" pc="268435537" symbol="&lt;init&gt;"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="6" lineNum="29" parent="globals/TestingCadenceView" pc="268435548" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="6" lineNum="12" parent="globals/TestingCadenceView" pc="268435537" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="6" lineNum="30" parent="globals/TestingCadenceView" pc="268435548" symbol="&lt;init&gt;"/>
         <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceApp.mc" id="7" lineNum="12" parent="globals/TestingCadenceApp" pc="268435559" symbol="onStart"/>
         <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceApp.mc" id="8" lineNum="20" parent="globals/TestingCadenceApp" pc="268435562" symbol="getInitialView"/>
         <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceApp.mc" id="8" lineNum="21" parent="globals/TestingCadenceApp" pc="268435564" symbol="getInitialView"/>
@@ -28,106 +28,106 @@
         <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceDelegate.mc" id="13" lineNum="12" parent="globals/TestingCadenceDelegate" pc="268435778" symbol="onMenu"/>
         <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceDelegate.mc" id="14" lineNum="6" parent="globals/TestingCadenceDelegate" pc="268435780" symbol="initialize"/>
         <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceDelegate.mc" id="14" lineNum="7" parent="globals/TestingCadenceDelegate" pc="268435782" symbol="initialize"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="181" parent="globals/TestingCadenceView" pc="268435795" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="185" parent="globals/TestingCadenceView" pc="268435798" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="186" parent="globals/TestingCadenceView" pc="268435807" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="189" parent="globals/TestingCadenceView" pc="268435816" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="190" parent="globals/TestingCadenceView" pc="268435826" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="191" parent="globals/TestingCadenceView" pc="268435833" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="192" parent="globals/TestingCadenceView" pc="268435840" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="195" parent="globals/TestingCadenceView" pc="268435844" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="196" parent="globals/TestingCadenceView" pc="268435851" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="197" parent="globals/TestingCadenceView" pc="268435858" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="198" parent="globals/TestingCadenceView" pc="268435874" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="199" parent="globals/TestingCadenceView" pc="268435884" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="200" parent="globals/TestingCadenceView" pc="268435891" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="203" parent="globals/TestingCadenceView" pc="268435898" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="206" parent="globals/TestingCadenceView" pc="268435916" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="206" parent="globals/TestingCadenceView" pc="268435926" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="209" parent="globals/TestingCadenceView" pc="268435930" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="210" parent="globals/TestingCadenceView" pc="268435937" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="210" parent="globals/TestingCadenceView" pc="268435944" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="211" parent="globals/TestingCadenceView" pc="268435948" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="214" parent="globals/TestingCadenceView" pc="268435955" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="216" parent="globals/TestingCadenceView" pc="268435971" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="218" parent="globals/TestingCadenceView" pc="268435982" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="219" parent="globals/TestingCadenceView" pc="268435992" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="220" parent="globals/TestingCadenceView" pc="268436002" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="222" parent="globals/TestingCadenceView" pc="268436008" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="225" parent="globals/TestingCadenceView" pc="268436014" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="227" parent="globals/TestingCadenceView" pc="268436025" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="229" parent="globals/TestingCadenceView" pc="268436044" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="231" parent="globals/TestingCadenceView" pc="268436055" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="235" parent="globals/TestingCadenceView" pc="268436074" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="239" parent="globals/TestingCadenceView" pc="268436089" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="240" parent="globals/TestingCadenceView" pc="268436100" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="241" parent="globals/TestingCadenceView" pc="268436110" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="244" parent="globals/TestingCadenceView" pc="268436117" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="246" parent="globals/TestingCadenceView" pc="268436121" symbol="drawCadenceChart"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="138" parent="globals/TestingCadenceView" pc="268436153" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="144" parent="globals/TestingCadenceView" pc="268436156" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="145" parent="globals/TestingCadenceView" pc="268436165" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="148" parent="globals/TestingCadenceView" pc="268436176" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="149" parent="globals/TestingCadenceView" pc="268436183" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="150" parent="globals/TestingCadenceView" pc="268436193" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="152" parent="globals/TestingCadenceView" pc="268436207" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="153" parent="globals/TestingCadenceView" pc="268436232" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="155" parent="globals/TestingCadenceView" pc="268436239" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="156" parent="globals/TestingCadenceView" pc="268436244" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="159" parent="globals/TestingCadenceView" pc="268436263" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="162" parent="globals/TestingCadenceView" pc="268436279" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="157" parent="globals/TestingCadenceView" pc="268436301" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="158" parent="globals/TestingCadenceView" pc="268436323" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="160" parent="globals/TestingCadenceView" pc="268436326" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="161" parent="globals/TestingCadenceView" pc="268436345" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="163" parent="globals/TestingCadenceView" pc="268436348" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="164" parent="globals/TestingCadenceView" pc="268436370" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="166" parent="globals/TestingCadenceView" pc="268436374" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="167" parent="globals/TestingCadenceView" pc="268436392" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="170" parent="globals/TestingCadenceView" pc="268436413" symbol="CadenceCalculator"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="18" lineNum="73" parent="globals/TestingCadenceView" pc="268436432" symbol="refreshScreen"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="18" lineNum="74" parent="globals/TestingCadenceView" pc="268436434" symbol="refreshScreen"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="20" lineNum="49" parent="globals/TestingCadenceView" pc="268436446" symbol="onLayout"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="20" lineNum="50" parent="globals/TestingCadenceView" pc="268436448" symbol="onLayout"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="20" lineNum="51" parent="globals/TestingCadenceView" pc="268436481" symbol="onLayout"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="20" lineNum="52" parent="globals/TestingCadenceView" pc="268436501" symbol="onLayout"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="20" lineNum="53" parent="globals/TestingCadenceView" pc="268436521" symbol="onLayout"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="119" parent="globals/TestingCadenceView" pc="268436542" symbol="CalculateSpeed"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="122" parent="globals/TestingCadenceView" pc="268436545" symbol="CalculateSpeed"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="123" parent="globals/TestingCadenceView" pc="268436562" symbol="CalculateSpeed"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="124" parent="globals/TestingCadenceView" pc="268436575" symbol="CalculateSpeed"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="125" parent="globals/TestingCadenceView" pc="268436593" symbol="CalculateSpeed"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="126" parent="globals/TestingCadenceView" pc="268436601" symbol="CalculateSpeed"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="128" parent="globals/TestingCadenceView" pc="268436608" symbol="CalculateSpeed"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="131" parent="globals/TestingCadenceView" pc="268436623" symbol="CalculateSpeed"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="132" parent="globals/TestingCadenceView" pc="268436627" symbol="CalculateSpeed"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="133" parent="globals/TestingCadenceView" pc="268436645" symbol="CalculateSpeed"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="134" parent="globals/TestingCadenceView" pc="268436653" symbol="CalculateSpeed"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="42" parent="globals/TestingCadenceView" pc="268436671" symbol="initialize"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="43" parent="globals/TestingCadenceView" pc="268436673" symbol="initialize"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="44" parent="globals/TestingCadenceView" pc="268436685" symbol="initialize"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="45" parent="globals/TestingCadenceView" pc="268436714" symbol="initialize"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="23" lineNum="61" parent="globals/TestingCadenceView" pc="268436746" symbol="onUpdate"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="23" lineNum="63" parent="globals/TestingCadenceView" pc="268436748" symbol="onUpdate"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="23" lineNum="65" parent="globals/TestingCadenceView" pc="268436755" symbol="onUpdate"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="23" lineNum="67" parent="globals/TestingCadenceView" pc="268436771" symbol="onUpdate"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="77" parent="globals/TestingCadenceView" pc="268436783" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="78" parent="globals/TestingCadenceView" pc="268436786" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="81" parent="globals/TestingCadenceView" pc="268436798" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="87" parent="globals/TestingCadenceView" pc="268436815" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="88" parent="globals/TestingCadenceView" pc="268436830" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="90" parent="globals/TestingCadenceView" pc="268436863" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="93" parent="globals/TestingCadenceView" pc="268436876" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="95" parent="globals/TestingCadenceView" pc="268436894" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="97" parent="globals/TestingCadenceView" pc="268436905" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="101" parent="globals/TestingCadenceView" pc="268436926" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="105" parent="globals/TestingCadenceView" pc="268436945" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="106" parent="globals/TestingCadenceView" pc="268436962" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="108" parent="globals/TestingCadenceView" pc="268436998" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="112" parent="globals/TestingCadenceView" pc="268437017" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="113" parent="globals/TestingCadenceView" pc="268437024" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="114" parent="globals/TestingCadenceView" pc="268437042" symbol="displayActivity"/>
-        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="115" parent="globals/TestingCadenceView" pc="268437067" symbol="displayActivity"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="123" parent="globals/TestingCadenceView" pc="268435795" symbol="RetrieveSpeed"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="127" parent="globals/TestingCadenceView" pc="268435798" symbol="RetrieveSpeed"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="128" parent="globals/TestingCadenceView" pc="268435815" symbol="RetrieveSpeed"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="129" parent="globals/TestingCadenceView" pc="268435828" symbol="RetrieveSpeed"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="130" parent="globals/TestingCadenceView" pc="268435846" symbol="RetrieveSpeed"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="131" parent="globals/TestingCadenceView" pc="268435854" symbol="RetrieveSpeed"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="133" parent="globals/TestingCadenceView" pc="268435861" symbol="RetrieveSpeed"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="136" parent="globals/TestingCadenceView" pc="268435876" symbol="RetrieveSpeed"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="137" parent="globals/TestingCadenceView" pc="268435880" symbol="RetrieveSpeed"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="138" parent="globals/TestingCadenceView" pc="268435898" symbol="RetrieveSpeed"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="15" lineNum="139" parent="globals/TestingCadenceView" pc="268435906" symbol="RetrieveSpeed"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="190" parent="globals/TestingCadenceView" pc="268435924" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="193" parent="globals/TestingCadenceView" pc="268435927" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="194" parent="globals/TestingCadenceView" pc="268435936" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="197" parent="globals/TestingCadenceView" pc="268435945" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="198" parent="globals/TestingCadenceView" pc="268435955" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="199" parent="globals/TestingCadenceView" pc="268435962" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="200" parent="globals/TestingCadenceView" pc="268435969" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="203" parent="globals/TestingCadenceView" pc="268435973" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="204" parent="globals/TestingCadenceView" pc="268435980" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="205" parent="globals/TestingCadenceView" pc="268435987" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="206" parent="globals/TestingCadenceView" pc="268436003" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="207" parent="globals/TestingCadenceView" pc="268436013" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="208" parent="globals/TestingCadenceView" pc="268436020" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="211" parent="globals/TestingCadenceView" pc="268436027" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="214" parent="globals/TestingCadenceView" pc="268436045" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="214" parent="globals/TestingCadenceView" pc="268436055" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="217" parent="globals/TestingCadenceView" pc="268436059" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="218" parent="globals/TestingCadenceView" pc="268436066" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="218" parent="globals/TestingCadenceView" pc="268436073" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="219" parent="globals/TestingCadenceView" pc="268436077" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="222" parent="globals/TestingCadenceView" pc="268436084" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="224" parent="globals/TestingCadenceView" pc="268436100" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="226" parent="globals/TestingCadenceView" pc="268436111" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="227" parent="globals/TestingCadenceView" pc="268436121" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="228" parent="globals/TestingCadenceView" pc="268436131" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="230" parent="globals/TestingCadenceView" pc="268436137" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="233" parent="globals/TestingCadenceView" pc="268436143" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="235" parent="globals/TestingCadenceView" pc="268436154" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="237" parent="globals/TestingCadenceView" pc="268436173" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="239" parent="globals/TestingCadenceView" pc="268436184" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="243" parent="globals/TestingCadenceView" pc="268436203" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="247" parent="globals/TestingCadenceView" pc="268436218" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="248" parent="globals/TestingCadenceView" pc="268436229" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="249" parent="globals/TestingCadenceView" pc="268436239" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="252" parent="globals/TestingCadenceView" pc="268436246" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="16" lineNum="254" parent="globals/TestingCadenceView" pc="268436250" symbol="drawCadenceChart"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="147" parent="globals/TestingCadenceView" pc="268436282" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="153" parent="globals/TestingCadenceView" pc="268436285" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="154" parent="globals/TestingCadenceView" pc="268436294" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="157" parent="globals/TestingCadenceView" pc="268436305" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="158" parent="globals/TestingCadenceView" pc="268436312" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="159" parent="globals/TestingCadenceView" pc="268436322" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="161" parent="globals/TestingCadenceView" pc="268436336" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="162" parent="globals/TestingCadenceView" pc="268436361" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="164" parent="globals/TestingCadenceView" pc="268436368" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="165" parent="globals/TestingCadenceView" pc="268436373" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="168" parent="globals/TestingCadenceView" pc="268436392" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="171" parent="globals/TestingCadenceView" pc="268436408" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="166" parent="globals/TestingCadenceView" pc="268436430" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="167" parent="globals/TestingCadenceView" pc="268436452" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="169" parent="globals/TestingCadenceView" pc="268436455" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="170" parent="globals/TestingCadenceView" pc="268436474" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="172" parent="globals/TestingCadenceView" pc="268436477" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="173" parent="globals/TestingCadenceView" pc="268436499" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="175" parent="globals/TestingCadenceView" pc="268436503" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="176" parent="globals/TestingCadenceView" pc="268436521" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="17" lineNum="179" parent="globals/TestingCadenceView" pc="268436542" symbol="CadenceCalculator"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="19" lineNum="74" parent="globals/TestingCadenceView" pc="268436561" symbol="refreshScreen"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="19" lineNum="75" parent="globals/TestingCadenceView" pc="268436563" symbol="refreshScreen"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="50" parent="globals/TestingCadenceView" pc="268436575" symbol="onLayout"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="51" parent="globals/TestingCadenceView" pc="268436577" symbol="onLayout"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="52" parent="globals/TestingCadenceView" pc="268436610" symbol="onLayout"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="53" parent="globals/TestingCadenceView" pc="268436630" symbol="onLayout"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="21" lineNum="54" parent="globals/TestingCadenceView" pc="268436650" symbol="onLayout"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="43" parent="globals/TestingCadenceView" pc="268436671" symbol="initialize"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="44" parent="globals/TestingCadenceView" pc="268436673" symbol="initialize"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="45" parent="globals/TestingCadenceView" pc="268436685" symbol="initialize"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="22" lineNum="46" parent="globals/TestingCadenceView" pc="268436714" symbol="initialize"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="23" lineNum="62" parent="globals/TestingCadenceView" pc="268436746" symbol="onUpdate"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="23" lineNum="64" parent="globals/TestingCadenceView" pc="268436748" symbol="onUpdate"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="23" lineNum="66" parent="globals/TestingCadenceView" pc="268436755" symbol="onUpdate"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="23" lineNum="68" parent="globals/TestingCadenceView" pc="268436771" symbol="onUpdate"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="78" parent="globals/TestingCadenceView" pc="268436783" symbol="displayActivity"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="79" parent="globals/TestingCadenceView" pc="268436786" symbol="displayActivity"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="82" parent="globals/TestingCadenceView" pc="268436798" symbol="displayActivity"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="88" parent="globals/TestingCadenceView" pc="268436815" symbol="displayActivity"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="89" parent="globals/TestingCadenceView" pc="268436830" symbol="displayActivity"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="91" parent="globals/TestingCadenceView" pc="268436863" symbol="displayActivity"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="94" parent="globals/TestingCadenceView" pc="268436876" symbol="displayActivity"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="96" parent="globals/TestingCadenceView" pc="268436894" symbol="displayActivity"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="98" parent="globals/TestingCadenceView" pc="268436905" symbol="displayActivity"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="102" parent="globals/TestingCadenceView" pc="268436926" symbol="displayActivity"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="106" parent="globals/TestingCadenceView" pc="268436945" symbol="displayActivity"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="107" parent="globals/TestingCadenceView" pc="268436962" symbol="displayActivity"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="109" parent="globals/TestingCadenceView" pc="268436998" symbol="displayActivity"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="113" parent="globals/TestingCadenceView" pc="268437017" symbol="displayActivity"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="114" parent="globals/TestingCadenceView" pc="268437024" symbol="displayActivity"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="115" parent="globals/TestingCadenceView" pc="268437042" symbol="displayActivity"/>
+        <entry filename="D:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\source\\TestingCadenceView.mc" id="24" lineNum="116" parent="globals/TestingCadenceView" pc="268437067" symbol="displayActivity"/>
         <entry filename="d:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="25" lineNum="15" parent="globals/Rez/Layouts" pc="268437087" symbol="MainLayout"/>
         <entry filename="d:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="25" lineNum="16" parent="globals/Rez/Layouts" pc="268437098" symbol="MainLayout"/>
         <entry filename="d:\\Deakin\\Units\\T3 2025\\SIT374-ProjectA\\TestingCadence\\bin\\gen\\006-B4432-00\\source\\Rez.mcgen" id="25" lineNum="18" parent="globals/Rez/Layouts" pc="268437107" symbol="MainLayout"/>
@@ -189,13 +189,13 @@
         <entry id="34" object="true" symbol="MainMenu"/>
         <entry field="true" id="17" symbol="&lt;globals/TestingCadenceView/&lt;&gt;_cadenceRangeDisplay&gt;"/>
         <entry id="8388644" module="true" symbol="System"/>
-        <entry id="14" method="true" symbol="CalculateSpeed"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry field="true" id="30" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="9" object="true" symbol="TestingCadenceMenuDelegate"/>
+        <entry id="8388643" module="true" symbol="Sensor"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8388702" method="true" symbol="initialize"/>
@@ -217,40 +217,41 @@
         <entry id="7" object="true" symbol="TestingCadenceApp"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="8388635" module="true" symbol="Application"/>
+        <entry id="14" method="true" symbol="RetrieveSpeed"/>
         <entry field="true" id="37" symbol="menu_label_2"/>
         <entry field="true" id="36" symbol="menu_label_1"/>
     </symbolTable>
     <localVars>
         <entry arg="true" endPc="268435695" name="item" stackId="1" startPc="268435629"/>
-        <entry arg="true" endPc="268436152" name="dc" stackId="1" startPc="268435795"/>
-        <entry endPc="268436151" name="width" stackId="2" startPc="268435798"/>
-        <entry endPc="268436151" name="height" stackId="3" startPc="268435798"/>
-        <entry endPc="268436151" name="margin" stackId="4" startPc="268435798"/>
-        <entry endPc="268436151" name="marginLeftRightMultiplier" stackId="5" startPc="268435798"/>
-        <entry endPc="268436151" name="marginTopMultiplier" stackId="6" startPc="268435798"/>
-        <entry endPc="268436151" name="marginBottomMultiplier" stackId="7" startPc="268435798"/>
-        <entry endPc="268436151" name="chartLeft" stackId="8" startPc="268435798"/>
-        <entry endPc="268436151" name="chartRight" stackId="9" startPc="268435798"/>
-        <entry endPc="268436151" name="chartTop" stackId="10" startPc="268435798"/>
-        <entry endPc="268436151" name="chartBottom" stackId="11" startPc="268435798"/>
-        <entry endPc="268436151" name="chartWidth" stackId="12" startPc="268435798"/>
-        <entry endPc="268436151" name="chartHeight" stackId="13" startPc="268435798"/>
-        <entry endPc="268436151" name="barCount" stackId="14" startPc="268435798"/>
-        <entry endPc="268436151" name="barWidth" stackId="15" startPc="268435798"/>
-        <entry endPc="268436151" name="startIndex" stackId="16" startPc="268435798"/>
-        <entry endPc="268436151" name="i" stackId="17" startPc="268435982"/>
-        <entry endPc="268436141" name="index" stackId="18" startPc="268435982"/>
-        <entry endPc="268436141" name="cadence" stackId="19" startPc="268435982"/>
-        <entry endPc="268436141" name="barHeight" stackId="20" startPc="268435982"/>
-        <entry endPc="268436141" name="x" stackId="21" startPc="268435982"/>
-        <entry endPc="268436141" name="y" stackId="22" startPc="268435982"/>
-        <entry endPc="268436141" name="barOffset" stackId="23" startPc="268435982"/>
-        <entry endPc="268436430" name="cadence_baseline" stackId="1" startPc="268436156"/>
-        <entry endPc="268436430" name="height_Factor" stackId="2" startPc="268436156"/>
-        <entry endPc="268436430" name="cadence_final" stackId="3" startPc="268436156"/>
-        <entry arg="true" endPc="268436541" name="dc" stackId="1" startPc="268436446"/>
-        <entry endPc="268436616" name="speed" stackId="1" startPc="268436545"/>
-        <entry endPc="268436664" name="error" stackId="2" startPc="268436623"/>
+        <entry endPc="268435869" name="speed" stackId="1" startPc="268435798"/>
+        <entry endPc="268435917" name="error" stackId="2" startPc="268435876"/>
+        <entry arg="true" endPc="268436281" name="dc" stackId="1" startPc="268435924"/>
+        <entry endPc="268436280" name="width" stackId="2" startPc="268435927"/>
+        <entry endPc="268436280" name="height" stackId="3" startPc="268435927"/>
+        <entry endPc="268436280" name="margin" stackId="4" startPc="268435927"/>
+        <entry endPc="268436280" name="marginLeftRightMultiplier" stackId="5" startPc="268435927"/>
+        <entry endPc="268436280" name="marginTopMultiplier" stackId="6" startPc="268435927"/>
+        <entry endPc="268436280" name="marginBottomMultiplier" stackId="7" startPc="268435927"/>
+        <entry endPc="268436280" name="chartLeft" stackId="8" startPc="268435927"/>
+        <entry endPc="268436280" name="chartRight" stackId="9" startPc="268435927"/>
+        <entry endPc="268436280" name="chartTop" stackId="10" startPc="268435927"/>
+        <entry endPc="268436280" name="chartBottom" stackId="11" startPc="268435927"/>
+        <entry endPc="268436280" name="chartWidth" stackId="12" startPc="268435927"/>
+        <entry endPc="268436280" name="chartHeight" stackId="13" startPc="268435927"/>
+        <entry endPc="268436280" name="barCount" stackId="14" startPc="268435927"/>
+        <entry endPc="268436280" name="barWidth" stackId="15" startPc="268435927"/>
+        <entry endPc="268436280" name="startIndex" stackId="16" startPc="268435927"/>
+        <entry endPc="268436280" name="i" stackId="17" startPc="268436111"/>
+        <entry endPc="268436270" name="index" stackId="18" startPc="268436111"/>
+        <entry endPc="268436270" name="cadence" stackId="19" startPc="268436111"/>
+        <entry endPc="268436270" name="barHeight" stackId="20" startPc="268436111"/>
+        <entry endPc="268436270" name="x" stackId="21" startPc="268436111"/>
+        <entry endPc="268436270" name="y" stackId="22" startPc="268436111"/>
+        <entry endPc="268436270" name="barOffset" stackId="23" startPc="268436111"/>
+        <entry endPc="268436559" name="cadence_baseline" stackId="1" startPc="268436285"/>
+        <entry endPc="268436559" name="height_Factor" stackId="2" startPc="268436285"/>
+        <entry endPc="268436559" name="cadence_final" stackId="3" startPc="268436285"/>
+        <entry arg="true" endPc="268436670" name="dc" stackId="1" startPc="268436575"/>
         <entry arg="true" endPc="268436782" name="dc" stackId="1" startPc="268436746"/>
         <entry endPc="268437085" name="info" stackId="1" startPc="268436786"/>
         <entry endPc="268436922" name="newCadence" stackId="2" startPc="268436815"/>
@@ -346,27 +347,27 @@
         <functionEntry accessMode="public" endPc="268435794" name="initialize" parent="TestingCadenceDelegate" startPc="268435780">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436152" name="drawCadenceChart" parent="TestingCadenceView" startPc="268435795">
+        <functionEntry accessMode="public" endPc="268435923" name="RetrieveSpeed" parent="TestingCadenceView" startPc="268435795">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436281" name="drawCadenceChart" parent="TestingCadenceView" startPc="268435924">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436431" name="CadenceCalculator" parent="TestingCadenceView" startPc="268436153">
+        <functionEntry accessMode="public" endPc="268436560" name="CadenceCalculator" parent="TestingCadenceView" startPc="268436282">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="TestingCadenceView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436445" name="refreshScreen" parent="TestingCadenceView" startPc="268436432">
+        <functionEntry accessMode="public" endPc="268436574" name="refreshScreen" parent="TestingCadenceView" startPc="268436561">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onShow" parent="TestingCadenceView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436541" name="onLayout" parent="TestingCadenceView" startPc="268436446">
+        <functionEntry accessMode="public" endPc="268436670" name="onLayout" parent="TestingCadenceView" startPc="268436575">
             <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436670" name="CalculateSpeed" parent="TestingCadenceView" startPc="268436542">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268436745" name="initialize" parent="TestingCadenceView" startPc="268436671">
